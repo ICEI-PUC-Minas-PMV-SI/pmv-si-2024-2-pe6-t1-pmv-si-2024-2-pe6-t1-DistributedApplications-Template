@@ -10,7 +10,7 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em desenvolvimento é uma aplicação para a gestão de academias, projetada para facilitar o controle e a administração dos alunos. A solução inclui um aplicativo móvel com funcionalidades essenciais, como a consulta rápida de informações dos alunos e <b>ajustes de pagamentos</b><!-- pessoal, fiquei com uma dúvida quanto essa questão de ajuste de pagamentos em aplicativos mobile. que tipos de ajustes podem ser feitos no mobile? fiquei pensando que talvez esse tipo de ajustes deveria ser feito somente no web. o que acham?-->. As tarefas mais complexas, como cadastro e edição de dados, serão realizadas em uma plataforma web robusta. Essa abordagem híbrida foi pensada para otimizar o tempo dos donos de academias, permitindo uma gestão eficiente tanto no dia a dia, via mobile, quanto nas tarefas administrativas mais detalhadas, realizadas em um desktop.
 
 ## Integrantes
 
