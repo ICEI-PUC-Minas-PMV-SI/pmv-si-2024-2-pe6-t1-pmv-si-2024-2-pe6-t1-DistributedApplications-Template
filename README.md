@@ -1,4 +1,8 @@
-# Gestão de academia
+<div align="center" style={{ marginTop: 16 }}>
+  <h2 style={{ margin: 0 }} align="center">
+    Gestão de Academia
+  </h2>
+</div>
 
 `CURSO: Sistemas de Informação`
 
