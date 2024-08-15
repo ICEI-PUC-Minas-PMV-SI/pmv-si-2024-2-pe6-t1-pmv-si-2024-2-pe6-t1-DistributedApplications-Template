@@ -1,6 +1,12 @@
 # Introdução
+<i><b>
+Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.</i></b>
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Atualmente, a gestão de academias enfrenta desafios significativos no controle e acompanhamento das informações dos alunos, como o status de pagamento e os planos assinados. Com o crescente interesse em manter uma vida saudável, a demanda por academias aumentou, levando academias de todos os portes a buscar soluções que otimizem a gestão administrativa, reduzindo a carga manual de trabalho e minimizando erros.
+
+Um dos principais desafios enfrentados pelos donos de academias é manter um controle eficiente e atualizado dos alunos, especialmente em relação aos pagamentos. A gestão manual dessas informações não só aumenta a probabilidade de erros, que podem resultar em perdas financeiras, mas também consome tempo valioso que poderia ser investido em outras áreas estratégicas do negócio.
+
+Diante desse cenário, o objetivo deste projeto é desenvolver uma solução que simplifique a gestão das academias, proporcionando uma ferramenta intuitiva e fácil de usar, tanto na web quanto em dispositivos móveis. O aplicativo móvel será focado em consultas rápidas e ajustes imediatos de informações, enquanto a plataforma web oferecerá uma gestão mais robusta e completa dos dados dos alunos. Essa distinção visa facilitar o uso diário pelo dono da academia, permitindo uma gestão eficiente diretamente do celular, enquanto as operações mais complexas são realizadas na versão web.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
