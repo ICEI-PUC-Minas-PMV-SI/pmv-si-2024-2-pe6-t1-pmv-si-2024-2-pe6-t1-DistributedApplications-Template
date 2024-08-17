@@ -84,7 +84,36 @@ Renan é um professor de educação física especializado em artes marciais, det
 - Uma plataforma integrada e intuitiva que centralize todas as funcionalidades necessárias para a gestão de alunos e financeiro.
 - Ferramentas de automação para agendamento de aulas, acompanhamento de presença e gestão de cobranças.
 - Acesso via dispositivos móveis para gerenciar seu negócio durante as aulas ou em deslocamentos.
+### Persona 2: Guilherme
 
+**Descrição Geral:**
+Guilherme é o proprietário de uma academia de porte médio. Ele entrou no ramo do fitness através do fisiculturismo e, motivado por sua paixão, abriu sua própria academia. Além de si mesmo, sua equipe inclui dois funcionários que cuidam da recepção e das tarefas administrativas, bem como vários personal trainers associados.
+
+**Demografia:**
+- **Idade:** 42 anos
+- **Localização:** Rio de Janeiro, RJ
+- **Educação:** Curso técnico em Fisiculturismo, diversos certificados em fitness e nutrição
+- **Estado Civil:** Casado
+
+**Objetivos:**
+- Estruturar a administração dos dados de forma a não se impactada pela rotatividade dos funcionários da recepção.
+- Aumentar a confiabilidade dos dados e facilitar a contabilidade.
+- Expandir a academia, adicionando mais serviços e eventualmente abrindo novas unidades.
+
+**Desafios:**
+- Assegurar que todas as informações dos clientes estejam atualizadas e acessíveis.
+- Encontrar uma solução de gestão intuitiva que possa se usada facilmente por funcionários novos sem necessidade de treinamento especializado.
+
+**Relação com a Tecnologia:**
+- Guilherme é tecnicamente proficiente mas não tem interesse em lidar pessoalmente com as ferramentas de controle administrativo.
+- Tem interesse particular em soluções que ofereçam relatórios detalhados.
+
+**Citação:**
+"Minha meta é que independente do funcionário que eu coloque na recepção o controle dos alunos continue funcionando."
+
+**Como a Solução Pode Ajudá-lo:**
+- Um sistema que ofereça um painel de controle intuitivo para gerenciar todas as operações da academia, incluindo finanças, agendamentos e acompanhamento de clientes.
+- Integração com outras plataformas para um fluxo de trabalho mais harmonioso e menos fragmentado.
 
 ---
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
