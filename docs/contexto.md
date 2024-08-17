@@ -9,11 +9,7 @@ Um dos principais desafios enfrentados pelos donos de academias é manter um con
 Diante desse cenário, o objetivo deste projeto é desenvolver uma solução que simplifique a gestão das academias, proporcionando uma ferramenta intuitiva e fácil de usar, tanto na web quanto em dispositivos móveis. O aplicativo móvel será focado em consultas rápidas e ajustes imediatos de informações, enquanto a plataforma web oferecerá uma gestão mais robusta e completa dos dados dos alunos. Essa distinção visa facilitar o uso diário pelo dono da academia, permitindo uma gestão eficiente diretamente do celular, enquanto as operações mais complexas são realizadas na versão web.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O problema central que estamos buscando resolver com este projeto é a ineficiência na gestão de informações de alunos em academias, que atualmente é realizada com sistemas pouco integrados. Isso inclui o acompanhamento de pagamentos, a atualização de planos de treinamento, e o gerenciamento de informações pessoais e de saúde dos alunos. A gestão  semiautomática desses dados frequentemente leva a erros, como falta de acompanhamento de inadimplência, e perda de dados importantes, resultando em perdas financeiras significativas e insatisfação do cliente.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
