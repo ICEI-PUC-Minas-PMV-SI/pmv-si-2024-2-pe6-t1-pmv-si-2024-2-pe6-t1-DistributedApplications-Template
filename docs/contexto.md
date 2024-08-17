@@ -36,9 +36,23 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+### Descrição
+O público-alvo para a solução de gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de todos os tamanhos. Este grupo é responsável pela operação diária e estratégica dos espaços de fitness e busca otimizar processos, melhorar a eficiência operacional e aumentar a satisfação dos clientes. O público secundário pode incluir funcionários que usam o sistema para tarefas diárias como check-ins de alunos, atualizações de planos de treino e monitoramento de frequência.
 
+### Conhecimentos Prévios
+Os usuários-alvo não necessariamente possuem conhecimentos avançados em tecnologia; a solução deve ser intuitiva e fácil de usar. Podem ter familiaridade com sistemas de gerenciamento tradicionais e ferramentas de escritório, como planilhas, mas a experiência com sistemas específicos para academias pode variar.
+
+### Relação com a Tecnologia
+Este público vê a tecnologia como uma ferramenta prática e orientada a resultados, buscando soluções que proporcionem eficiência, confiabilidade e valor agregado. A aceitação será mais alta se a tecnologia mostrar claramente sua capacidade de simplificar operações, reduzir erros e economizar tempo.
+
+### Necessidades
+- **Automatização de Processos**: Eliminação de tarefas manuais, automatizando registros de alunos, acompanhamento de pagamentos e atualizações de planos.
+- **Precisão de Dados**: Minimização de erros nas informações financeiras e de alunos para evitar perdas financeiras e manter a integridade dos dados.
+- **Acesso Rápido a Informações**: Capacidade de acessar rapidamente informações completas e atualizadas, facilitando decisões rápidas e informadas.
+- **Mobilidade**: Acesso via dispositivos móveis para permitir gestão à distância e em tempo real, ideal para gerentes e proprietários em constante movimento.
+- **Relatórios e Análises**: Geração de relatórios detalhados para análise de desempenho do negócio e planejamento estratégico.
+
+---
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
