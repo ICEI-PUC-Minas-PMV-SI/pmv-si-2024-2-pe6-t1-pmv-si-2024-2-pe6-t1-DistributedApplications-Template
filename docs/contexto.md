@@ -52,6 +52,40 @@ Este público vê a tecnologia como uma ferramenta prática e orientada a result
 - **Mobilidade**: Acesso via dispositivos móveis para permitir gestão à distância e em tempo real, ideal para gerentes e proprietários em constante movimento.
 - **Relatórios e Análises**: Geração de relatórios detalhados para análise de desempenho do negócio e planejamento estratégico.
 
+### Persona 1: Renan
+
+**Descrição Geral:**
+Renan é um professor de educação física especializado em artes marciais, detentor do título de mestre faixa preta em kung fu. Ele ministra aulas de kung fu e crossfit em um espaço alugado. Como microempresário, Renan não tem funcionários e administra todas as tarefas administrativas de suas aulas e alunos pessoalmente.
+
+**Demografia:**
+- **Idade:** 35 anos
+- **Localização:** Belo Horizonte, MG
+- **Educação:** Graduação em Educação Física, especialização em Artes Marciais
+- **Estado Civil:** Noivo
+
+**Objetivos:**
+- Automatizar a gestão de alunos para dedicar mais tempo às suas aulas.
+- Manter registros precisos de pagamentos, presenças e evolução dos alunos.
+- Expansão do negócio para eventualmente contratar assistentes ou ampliar o local de aulas.
+
+**Desafios:**
+- Balancear o tempo entre ensinar e administrar o negócio.
+- Manter o controle financeiro acurado para assegurar a estabilidade financeira do negócio.
+- Implementar uma solução de gestão fácil de usar, dada sua experiência técnica limitada.
+
+**Relação com a Tecnologia:**
+- Renan tem uma competência moderada com tecnologia, utilizando aplicativos básicos em smartphones e computadores, mas não tem familiaridade com sistemas de gestão avançados.
+- Prefere soluções tecnológicas intuitivas e de fácil implementação.
+
+**Citação:**
+"Quero gastar menos tempo com burocracias e mais tempo ensinando meus alunos."
+
+**Como a Solução Pode Ajudá-lo:**
+- Uma plataforma integrada e intuitiva que centralize todas as funcionalidades necessárias para a gestão de alunos e financeiro.
+- Ferramentas de automação para agendamento de aulas, acompanhamento de presença e gestão de cobranças.
+- Acesso via dispositivos móveis para gerenciar seu negócio durante as aulas ou em deslocamentos.
+
+
 ---
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
