@@ -6,7 +6,7 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+RESUMO: "Zeus - Gestão Condominial" é um aplicativo que tem como objetivo automatizar os processos cotidianos das rotinas de um condomínio. Assim, o dia a dia do síndico e moradores torna-se mais fácil, já que o sistema permite registrar dados dos moradores e visitantes, fornece informações de avisos gerais, como também visualizar boletos e multas, sem a necessidade de procurar informações em meio à papelada, ou até mesmo nas caixas dos apartamentos. Além de contar com muitos moradores, um condomínio é um lugar repleto de desafios, que exige a busca constante por soluções. Essa atividade pode ser comparada ao gerenciamento de uma pequena cidade. Desta forma, é possível obter toda a gestão em um aplicativo 100% online e isto resultará em uma ótima administração.
 
 ## Integrantes
 
