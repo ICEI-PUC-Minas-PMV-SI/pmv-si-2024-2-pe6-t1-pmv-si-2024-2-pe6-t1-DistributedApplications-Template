@@ -16,22 +16,23 @@ VERIFICAR: Nesse momento, o grupo pode optar por fazer uso  de ferramentas como 
 
 ## Objetivos Geral e Específicos
 
-O objetivo do "Zeus - Gestão Condominial" é possibilitar que haja uma comunicação efetiva entre o condomínio e seus residentes, da mesma forma que seja possível entre os residentes e o condomínio.
+Objetivo Geral
+O objetivo do Sistema de Gestão de Condomínios é possibilitar que haja uma comunicação efetiva entre o síndico do condomínio e seus residentes, da mesma forma que seja possível entre os residentes e o síndico.
+
 Objetivos Específicos
-• Gerenciamento do cadastro de funcionários;
-• Gerenciamento do cadastro de moradores;
-• Controlar a entrada e saída de visitantes;
-• Fornecer informações sobre avisos gerais e particulares;
-• Permitir baixar e visualização de boletos, taxas e multas;
-• Permitir baixar e visualização de documentos do condomínio, como atas e demonstrativos;
-• Notificar o morador sobre avisos, datas de pagamentos;
+●	Centralizar informações de gestão relevantes ao condomínio tais como, disponibilizar atas, estatutos e balancetes de verificação.
+●	Centralizar informações de comunicação entre administração e moradores do condomínio.
+●	Controlar cadastro  de moradores, funcionários e visitantes.
+●	Gerenciar entrada e saída de visitantes.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-A grande maioria dos condomínios seja com poucos moradores ou conjuntos habitacionais com centenas de moradores, ainda não é comum o uso de quaisquer ferramentas computacionais que sejam similares à aplicação que está sendo proposta. Com a padronização e otimização dos processos executados em uma gestão de condomínio, cria-se, desse modo, um ambiente mais favorável para a adesão da mesma. A aplicação visa trazer para a gestão condominial, bem como para seus moradores, uma forma mais prática e eficiente de realizar as atividades que estão inseridas no cotidiano de ambas as partes. As atividades são apresentadas de forma bem definidas e padronizadas por meio de um mapeamento de processos, proporcionando uma maior redução de custos e agilidade na solução de problemas. Devido à escassez de tempo cada vez mais presente em nossas vidas e o fato de a população estar se tornando cada vez mais adeptas às novas tecnologias, como os smartphones, torna-se imprescindível um controle automatizado, seguro e de fácil acesso ao condômino. O produto se posiciona de forma estratégica em oferecer soluções para os problemas do seu dia-a-dia, através de recursos tecnológicos buscados pela sociedade. Tarefas que antes eram complexas e de difícil atualização, agora se tornam simples e eficazes, como cadastro atualizado de moradores, controle de visitantes e acesso ao condomínio e visualização de boletos, entre outros benefícios.
+A grande maioria dos condomínios seja com poucos moradores ou conjuntos habitacionais com centenas de moradores, ainda não é comum o uso de quaisquer ferramentas computacionais que sejam similares à aplicação que está sendo proposta. Com a padronização e otimização dos processos executados em uma gestão de condomínio, cria-se, desse modo, um ambiente mais favorável para a adesão da mesma.
+A aplicação visa trazer para a gestão condominial, bem como para seus moradores, uma forma mais prática e eficiente de realizar as atividades que estão inseridas no cotidiano de ambas as partes. As atividades são apresentadas de forma bem definidas e padronizadas por meio de um mapeamento de processos, proporcionando uma maior redução de custos e agilidade na solução de problemas. Devido à escassez de tempo cada vez mais presente em nossas vidas e o fato de a população estar se tornando cada vez mais adeptas às novas tecnologias, como os smartphones, torna-se imprescindível um controle automatizado, seguro e de fácil acesso ao condômino.
+O produto se posiciona de forma estratégica em oferecer soluções para os problemas do seu dia-a-dia, através de recursos tecnológicos buscados pela sociedade. Tarefas que antes eram complexas e de difícil atualização, agora se tornam simples e eficazes, como cadastro atualizado de moradores, controle de visitantes e acesso ao condomínio e visualização de boletos, entre outros benefícios.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
@@ -79,8 +80,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Usabilidade: O sistema deve permitir que complete uma tarefa de cadastro em no máximo 1 minuto. |  BAIXA |
+|RNF-002| Disponibilidade: O sistema deve ficar online 24H por dia, 7 dias na semana |  BAIXA |
+|RNF-003| Segurança: O produto deve restringir o acesso por meio de senhas individuais para o usuário. |  BAIXA |
+|RNF-004| Desempenho: O sistema deve ser capaz de gerar relatórios em até 30 segundos. |  BAIXA |
+|RNF-005| Usabilidade: O sistema deve ser fácil de usar e entender com telas bem intuitivas. |  BAIXA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
