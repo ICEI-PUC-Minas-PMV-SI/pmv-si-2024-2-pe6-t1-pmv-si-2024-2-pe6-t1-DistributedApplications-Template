@@ -1,31 +1,37 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Em um condomínio onde há diversas famílias, numerosas ou mesmo pequenas, as informações gerais e específicas são alteradas constantemente, deste modo, há uma necessidade de que sejam disseminadas de forma rápida e para todos.
+Nosso propósito com a ControlCond é facilitar a comunicação e divulgação de informações relevantes aos inquilinos, igualmente os inquilinos têm a possibilidade de se comunicar com o condomínio sem burocracia e com facilidade. Desta forma, a automatização dos comunicados será mais precisa e eficiente, possibilitando que os moradores tenham conhecimento das alterações e novidades do condomínio.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Seja um aviso sobre usos de máscaras que podem ou não ser obrigatórias dentro do condomínio; um boleto que esteja atrasado; indicação de que há um visitante permitido para entrada: uma multa recente; uma mensagem na portaria a respeito da entrega dos correios ou até mesmo de que naquela data desejada o espaço de lazer, que antes estava reservado, agora já não está e pode ser agendado, são exemplos de comunicações que necessitam conhecimento rápido dos moradores e do condomínio.
+Por não haver a automatização desses processos, muitos moradores acabam por ficar com boletos e multas em atraso sem seu conhecimento; pela  correria do dia a dia não verificam os papéis que ficam colados nas paredes e que podem ter algum aviso importante; moradores novos não conhecem as regras e não conseguem se comunicar com facilidade; dentre tantos outros problemas existentes, um aplicativo que, com essas funcionalidades, resultaria no maior controle entre as partes e possibilita melhorias necessárias que pode-se não haver conhecimento ainda.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+VERIFICAR: Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
-## Objetivos
+## Objetivos Geral e Específicos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo do "Zeus - Gestão Condominial" é possibilitar que haja uma comunicação efetiva entre o condomínio e seus residentes, da mesma forma que seja possível entre os residentes e o condomínio.
+Objetivos Específicos
+• Gerenciamento do cadastro de funcionários;
+• Gerenciamento do cadastro de moradores;
+• Controlar a entrada e saída de visitantes;
+• Fornecer informações sobre avisos gerais e particulares;
+• Permitir baixar e visualização de boletos, taxas e multas;
+• Permitir baixar e visualização de documentos do condomínio, como atas e demonstrativos;
+• Notificar o morador sobre avisos, datas de pagamentos;
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A grande maioria dos condomínios seja com poucos moradores ou conjuntos habitacionais com centenas de moradores, ainda não é comum o uso de quaisquer ferramentas computacionais que sejam similares à aplicação que está sendo proposta. Com a padronização e otimização dos processos executados em uma gestão de condomínio, cria-se, desse modo, um ambiente mais favorável para a adesão da mesma. A aplicação visa trazer para a gestão condominial, bem como para seus moradores, uma forma mais prática e eficiente de realizar as atividades que estão inseridas no cotidiano de ambas as partes. As atividades são apresentadas de forma bem definidas e padronizadas por meio de um mapeamento de processos, proporcionando uma maior redução de custos e agilidade na solução de problemas. Devido à escassez de tempo cada vez mais presente em nossas vidas e o fato de a população estar se tornando cada vez mais adeptas às novas tecnologias, como os smartphones, torna-se imprescindível um controle automatizado, seguro e de fácil acesso ao condômino. O produto se posiciona de forma estratégica em oferecer soluções para os problemas do seu dia-a-dia, através de recursos tecnológicos buscados pela sociedade. Tarefas que antes eram complexas e de difícil atualização, agora se tornam simples e eficazes, como cadastro atualizado de moradores, controle de visitantes e acesso ao condomínio e visualização de boletos, entre outros benefícios.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
@@ -34,8 +40,9 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+• Administradoras de Condomínios: Empresas que administram condomínios são um dos principais tipos de clientes do ControlCond. A ferramenta agiliza os processos da gestão de um condomínio, como, por exemplo. automatização de cobranças, gestão e cadastro de moradores.. Com o ControlCond, essas empresas terão espaço de crescimento, podendo focar esforços em outras áreas do negócio.
+• Síndicos de Condomínios: Síndicos que estão começando ou já administram condomínios por conta própria também são público-alvo do ControlCond. Assim como para as administradoras de condomínios, a ferramenta facilitará os processos de cobrança, gestão de moradores e também a comunicação com os condôminos. Além de se beneficiar de todas as funcionalidades de um morador.
+• Moradores: Moradores de um condomínio são peças chave para o ControlCond existir, já que são fortementes beneficiados com a ferramenta. Com o ControlCond, moradores terão fácil acesso aos avisos do condomínio, cadastro de visitantes e outras facilidades, tendo uma experiência mais tranquila de morar em um condomínio.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
@@ -55,8 +62,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE FUNCIONÁRIOS | ALTA |
+|RF-002| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE MORADOR | ALTA |
+|RF-003| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE APARTAMENTO | ALTA |
+|RF-004| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE USUÁRIO | ALTA |
+|RF-005| O SISTEMA DEVE PERMITIR A AUTENTICAÇÃO DE USUÁRIOS | ALTA |
+|RF-006| O SISTEMA DEVE PERMITIR BUSCAS POR APARTAMENTO, OU NOME DO MORADOR | ALTA |
+|RF-007| O SISTEMA DEVE PERMITIR O CONTROLE DA ENTRADA DE VISITANTES | ALTA |
+|RF-008| O SISTEMA DEVE PERMITIR O CONTROLE DA SAÍDA DE VISITANTES | ALTA |
+|RF-009| EMITIR RELATÓRIO DE VISITANTES POR PERÍODO E COM STATUS “ABERTO” | MÉDIA |
+|RF-010| EMITIR RELATÓRIO DE VISITANTES POR PERÍODO E COM STATUS “CONCLUÍDO” | MÉDIA |
+|RF-011| O SISTEMA DEVE PERMITIR O GERENCIMENTO DE DOCUMENTOS PARA DOWNLOAD | BAIXA |
+|RF-012| O SISTEMA DEVE PERMITIR O CONTROLE DE QUADRO DE AVISOS | BAIXA |
 
 ### Requisitos não Funcionais
 
