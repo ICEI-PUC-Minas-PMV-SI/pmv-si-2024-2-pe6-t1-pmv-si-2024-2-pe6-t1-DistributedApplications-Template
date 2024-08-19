@@ -42,7 +42,9 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 ## Público-Alvo
 
 • Administradoras de Condomínios: Empresas que administram condomínios são um dos principais tipos de clientes do ControlCond. A ferramenta agiliza os processos da gestão de um condomínio, como, por exemplo. automatização de cobranças, gestão e cadastro de moradores.. Com o ControlCond, essas empresas terão espaço de crescimento, podendo focar esforços em outras áreas do negócio.
+
 • Síndicos de Condomínios: Síndicos que estão começando ou já administram condomínios por conta própria também são público-alvo do ControlCond. Assim como para as administradoras de condomínios, a ferramenta facilitará os processos de cobrança, gestão de moradores e também a comunicação com os condôminos. Além de se beneficiar de todas as funcionalidades de um morador.
+
 • Moradores: Moradores de um condomínio são peças chave para o ControlCond existir, já que são fortementes beneficiados com a ferramenta. Com o ControlCond, moradores terão fácil acesso aos avisos do condomínio, cadastro de visitantes e outras facilidades, tendo uma experiência mais tranquila de morar em um condomínio.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
