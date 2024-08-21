@@ -1,43 +1,19 @@
 # Introdução
-<i><b>
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.</i></b>
-
-Atualmente, a gestão de academias enfrenta desafios significativos no controle e acompanhamento das informações dos alunos, como o status de pagamento e os planos assinados. Com o crescente interesse em manter uma vida saudável, a demanda por academias aumentou, levando academias de todos os portes a buscar soluções que otimizem a gestão administrativa, reduzindo a carga manual de trabalho e minimizando erros.
-
-Um dos principais desafios enfrentados pelos donos de academias é manter um controle eficiente e atualizado dos alunos, especialmente em relação aos pagamentos. A gestão manual dessas informações não só aumenta a probabilidade de erros, que podem resultar em perdas financeiras, mas também consome tempo valioso que poderia ser investido em outras áreas estratégicas do negócio.
-
-Diante desse cenário, o objetivo deste projeto é desenvolver uma solução que simplifique a gestão das academias, proporcionando uma ferramenta intuitiva e fácil de usar, tanto na web quanto em dispositivos móveis. O aplicativo móvel será focado em consultas rápidas e ajustes imediatos de informações, enquanto a plataforma web oferecerá uma gestão mais robusta e completa dos dados dos alunos. Essa distinção visa facilitar o uso diário pelo dono da academia, permitindo uma gestão eficiente diretamente do celular, enquanto as operações mais complexas são realizadas na versão web.
+A gestão eficiente é fundamental para o sucesso de qualquer empreendimento, e no caso das academias, isso não é diferente.À medida que o setor fitness continua a crescer, uma boa administração torna-se essencial para expandir e diversificar o negócio. Com o aumento da demanda por práticas de vida saudável, academias de todos os portes enfrentam o desafio de lidar com um volume crescente de dados e processos administrativos. Se não forem gerenciados de forma adequada, esses desafios podem comprometer tanto o funcionamento quanto a lucratividade da academia. Nesse cenário, a tecnologia se apresenta como uma aliada indispensável, proporcionando ferramentas que facilitam a gestão do negócio e melhoram a experiência tanto dos gestores quanto dos alunos.
 
 ## Problema
-O problema central que estamos buscando resolver com este projeto é a ineficiência na gestão de informações de alunos em academias, que atualmente é realizada com sistemas pouco integrados. Isso inclui o acompanhamento de pagamentos, a atualização de planos de treinamento, e o gerenciamento de informações pessoais e de saúde dos alunos. A gestão  semiautomática desses dados frequentemente leva a erros, como falta de acompanhamento de inadimplência, e perda de dados importantes, resultando em perdas financeiras significativas e insatisfação do cliente.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema central abordado por este projeto é a ineficiência na gestão das informações dos alunos em academias, atualmente realizada por meio de sistemas pouco integrados. Isso abrange desde o acompanhamento de pagamentos e a atualização de planos de treinamento, até o gerenciamento de informações pessoais e de saúde dos alunos. A gestão semiautomática desses dados frequentemente resulta em erros, como a falta de controle sobre inadimplências e a perda de dados importantes, gerando prejuízos financeiros significativos e insatisfação entre os clientes.
 
 ## Objetivos
-
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo deste projeto é desenvolver uma solução tecnológica que seja intuitiva e de fácil utilização. Com um aplicativo móvel destinado a consultas rápidas e ajustes imediatos, e uma plataforma web voltada para uma gestão completa e robusta dos dados dos alunos, o sistema visa otimizar o controle das informações e reduzir a carga manual de trabalho, tornando a gestão mais eficiente e precisa.
 
 ## Justificativa
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Este projeto foi motivado pela crescente necessidade de soluções eficientes para a gestão de academias, um setor em constante crescimento, onde muitos processos ainda são manuais. Ao desenvolver uma plataforma web robusta combinada com um aplicativo móvel intuitivo, buscamos atender às demandas dos gestores por uma ferramenta que facilite a administração diária, otimize o controle de informações e melhore a experiência dos alunos.
 
 ## Público-Alvo
 
 ### Descrição
-O público-alvo para a solução de gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de todos os tamanhos. Este grupo é responsável pela operação diária e estratégica dos espaços de fitness e busca otimizar processos, melhorar a eficiência operacional e aumentar a satisfação dos clientes. O público secundário pode incluir funcionários que usam o sistema para tarefas diárias como check-ins de alunos, atualizações de planos de treino e monitoramento de frequência.
+O público-alvo para a solução de gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de todos os tamanhos. Este grupo é responsável pela operação diária e estratégica dos espaços fitness e busca otimizar processos, melhorar a eficiência operacional e aumentar a satisfação dos clientes. O público secundário pode incluir funcionários que usam o sistema para tarefas diárias como check-ins de alunos, atualizações de planos de treino e monitoramento de frequência.
 
 ### Conhecimentos Prévios
 Os usuários-alvo não necessariamente possuem conhecimentos avançados em tecnologia; a solução deve ser intuitiva e fácil de usar. Podem ter familiaridade com sistemas de gerenciamento tradicionais e ferramentas de escritório, como planilhas, mas a experiência com sistemas específicos para academias pode variar.
