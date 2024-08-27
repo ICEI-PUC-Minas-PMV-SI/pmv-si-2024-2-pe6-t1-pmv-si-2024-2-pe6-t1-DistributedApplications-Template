@@ -1,9 +1,6 @@
 <script setup lang="ts">
 import NavbarLeft from '@/components/Site/NavbarLeft.vue';
 import NavbarRight from '@/components/Site/NavbarRight.vue';
-
-import { useCounterStore } from '@/stores/counter';
-
 </script>
 
 <template>
