@@ -9,3 +9,17 @@ import { useThemeStore } from '@/stores/theme';
   </v-app>
 </template>
 
+<style>
+body {
+  background-color: #ECEFF1;
+}
+
+@media (min-width: 1024px) {
+    #app {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 0;
+    }
+}
+</style>
+
