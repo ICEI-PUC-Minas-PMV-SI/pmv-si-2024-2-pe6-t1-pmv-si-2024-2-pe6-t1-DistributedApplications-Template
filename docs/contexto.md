@@ -7,17 +7,12 @@ Nosso propósito com a ControlCond é facilitar a comunicação e divulgação d
 Seja um aviso sobre usos de máscaras que podem ou não ser obrigatórias dentro do condomínio; um boleto que esteja atrasado; indicação de que há um visitante permitido para entrada: uma multa recente; uma mensagem na portaria a respeito da entrega dos correios ou até mesmo de que naquela data desejada o espaço de lazer, que antes estava reservado, agora já não está e pode ser agendado, são exemplos de comunicações que necessitam conhecimento rápido dos moradores e do condomínio.
 Por não haver a automatização desses processos, muitos moradores acabam por ficar com boletos e multas em atraso sem seu conhecimento; pela  correria do dia a dia não verificam os papéis que ficam colados nas paredes e que podem ter algum aviso importante; moradores novos não conhecem as regras e não conseguem se comunicar com facilidade; dentre tantos outros problemas existentes, um aplicativo que, com essas funcionalidades, resultaria no maior controle entre as partes e possibilita melhorias necessárias que pode-se não haver conhecimento ainda.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos Geral e Específicos
 
-Objetivo Geral
+### Objetivo Geral
 O objetivo do Sistema de Gestão de Condomínios é possibilitar que haja uma comunicação efetiva entre o síndico do condomínio e seus residentes, da mesma forma que seja possível entre os residentes e o síndico.
 
-Objetivos Específicos
+### Objetivos Específicos
 ●	Centralizar informações de gestão relevantes ao condomínio tais como, disponibilizar atas, estatutos e balancetes de verificação.
 ●	Centralizar informações de comunicação entre administração e moradores do condomínio.
 ●	Controlar cadastro  de moradores, funcionários e visitantes.
