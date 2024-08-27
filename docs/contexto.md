@@ -1,7 +1,7 @@
 # Introdução
 
 Em um condomínio onde há diversas famílias, numerosas ou mesmo pequenas, as informações gerais e específicas são alteradas constantemente, deste modo, há uma necessidade de que sejam disseminadas de forma rápida e para todos.
-Nosso propósito com a ControlCond é facilitar a comunicação e divulgação de informações relevantes aos inquilinos, igualmente os inquilinos têm a possibilidade de se comunicar com o condomínio sem burocracia e com facilidade. Desta forma, a automatização dos comunicados será mais precisa e eficiente, possibilitando que os moradores tenham conhecimento das alterações e novidades do condomínio.
+Nosso propósito com aplicativo "Zeus - Gestão Condominial" é facilitar a comunicação e divulgação de informações relevantes aos inquilinos, igualmente os inquilinos têm a possibilidade de se comunicar com o condomínio sem burocracia e com facilidade. Desta forma, a automatização dos comunicados será mais precisa e eficiente, possibilitando que os moradores tenham conhecimento das alterações e novidades do condomínio.
 
 ## Problema
 Seja um aviso sobre usos de máscaras que podem ou não ser obrigatórias dentro do condomínio; um boleto que esteja atrasado; indicação de que há um visitante permitido para entrada: uma multa recente; uma mensagem na portaria a respeito da entrega dos correios ou até mesmo de que naquela data desejada o espaço de lazer, que antes estava reservado, agora já não está e pode ser agendado, são exemplos de comunicações que necessitam conhecimento rápido dos moradores e do condomínio.
