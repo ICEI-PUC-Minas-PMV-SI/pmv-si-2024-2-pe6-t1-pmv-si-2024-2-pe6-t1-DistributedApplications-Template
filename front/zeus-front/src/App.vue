@@ -11,7 +11,7 @@ import { useThemeStore } from '@/stores/theme';
 
 <style>
 body {
-  background-color: #ECEFF1;
+  background-color: #01579B;
 }
 
 @media (min-width: 1024px) {
