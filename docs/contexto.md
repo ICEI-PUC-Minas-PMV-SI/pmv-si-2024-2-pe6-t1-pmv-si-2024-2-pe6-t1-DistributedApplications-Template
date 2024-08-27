@@ -13,10 +13,10 @@ Por não haver a automatização desses processos, muitos moradores acabam por f
 O objetivo do Sistema de Gestão de Condomínios é possibilitar que haja uma comunicação efetiva entre o síndico do condomínio e seus residentes, da mesma forma que seja possível entre os residentes e o síndico.
 
 ### Objetivos Específicos
-●	Centralizar informações de gestão relevantes ao condomínio tais como, disponibilizar atas, estatutos e balancetes de verificação.
-●	Centralizar informações de comunicação entre administração e moradores do condomínio.
-●	Controlar cadastro  de moradores, funcionários e visitantes.
-●	Gerenciar entrada e saída de visitantes.
+• Centralizar informações de gestão relevantes ao condomínio tais como, disponibilizar atas, estatutos e balancetes de verificação.
+• Centralizar informações de comunicação entre administração e moradores do condomínio.
+• Controlar cadastro  de moradores, funcionários e visitantes.
+• Gerenciar entrada e saída de visitantes.
 
 ## Justificativa
 
@@ -38,30 +38,28 @@ O produto se posiciona de forma estratégica em oferecer soluções para os prob
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE FUNCIONÁRIOS | ALTA |
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|------|-----------------------------------------|----|-----|
+|RF-001| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE FUNCIONÁRIOS | ALTA | Filipe|
 |RF-002| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE MORADOR | ALTA |
 |RF-003| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE APARTAMENTO | ALTA |
 |RF-004| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE USUÁRIO | ALTA |
 |RF-005| O SISTEMA DEVE PERMITIR A AUTENTICAÇÃO DE USUÁRIOS | ALTA |
-|RF-006| O SISTEMA DEVE PERMITIR BUSCAS POR APARTAMENTO, OU NOME DO MORADOR | ALTA |
-|RF-007| O SISTEMA DEVE PERMITIR O CONTROLE DA ENTRADA DE VISITANTES | ALTA |
-|RF-008| O SISTEMA DEVE PERMITIR O CONTROLE DA SAÍDA DE VISITANTES | ALTA |
-|RF-009| EMITIR RELATÓRIO DE VISITANTES POR PERÍODO E COM STATUS “ABERTO” | MÉDIA |
-|RF-010| EMITIR RELATÓRIO DE VISITANTES POR PERÍODO E COM STATUS “CONCLUÍDO” | MÉDIA |
-|RF-011| O SISTEMA DEVE PERMITIR O GERENCIMENTO DE DOCUMENTOS PARA DOWNLOAD | BAIXA |
-|RF-012| O SISTEMA DEVE PERMITIR O CONTROLE DE QUADRO DE AVISOS | BAIXA |
+|RF-006| O SISTEMA DEVE PERMITIR BUSCAS POR APARTAMENTO, OU NOME DO MORADOR | MÉDIA |
+|RF-007| O SISTEMA DEVE PERMITIR O CONTROLE DE ENTRADA E SAÍDA DE VISITANTES | MÉDIA |
+|RF-008| O SISTEMA DEVE PERMITIR A EMISSÃO DE RELATÓRIOS | BAIXA |
+|RF-009| O SISTEMA DEVE PERMITIR O GERENCIMENTO DE DOCUMENTOS PARA DOWNLOAD | BAIXA |
+|RF-010| O SISTEMA DEVE PERMITIR O CONTROLE DE QUADRO DE AVISOS | BAIXA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
+|ID      | Descrição do Requisito  |Prioridade |
+|------- |-------------------------|----|
 |RNF-001| Usabilidade: O sistema deve permitir que complete uma tarefa de cadastro em no máximo 1 minuto. |  BAIXA |
 |RNF-002| Disponibilidade: O sistema deve ficar online 24H por dia, 7 dias na semana |  BAIXA |
 |RNF-003| Segurança: O produto deve restringir o acesso por meio de senhas individuais para o usuário. |  BAIXA |
 |RNF-004| Desempenho: O sistema deve ser capaz de gerar relatórios em até 30 segundos. |  BAIXA |
-|RNF-005| Usabilidade: O sistema deve ser fácil de usar e entender com telas bem intuitivas. |  BAIXA |
+|RNF-005| Usabilidade: Para utilizar o sistema, é necessário ter noções básicas de tecnologia e operação de computadores. |  BAIXA |
 
 ## Restrições
 
