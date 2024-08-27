@@ -1,7 +1,7 @@
 # Introdução
 
 Em um condomínio onde há diversas famílias, numerosas ou mesmo pequenas, as informações gerais e específicas são alteradas constantemente, deste modo, há uma necessidade de que sejam disseminadas de forma rápida e para todos.
-Nosso propósito com a ControlCond é facilitar a comunicação e divulgação de informações relevantes aos inquilinos, igualmente os inquilinos têm a possibilidade de se comunicar com o condomínio sem burocracia e com facilidade. Desta forma, a automatização dos comunicados será mais precisa e eficiente, possibilitando que os moradores tenham conhecimento das alterações e novidades do condomínio.
+Nosso propósito com aplicativo "Zeus - Gestão Condominial" é facilitar a comunicação e divulgação de informações relevantes aos inquilinos, igualmente os inquilinos têm a possibilidade de se comunicar com o condomínio sem burocracia e com facilidade. Desta forma, a automatização dos comunicados será mais precisa e eficiente, possibilitando que os moradores tenham conhecimento das alterações e novidades do condomínio.
 
 ## Problema
 Seja um aviso sobre usos de máscaras que podem ou não ser obrigatórias dentro do condomínio; um boleto que esteja atrasado; indicação de que há um visitante permitido para entrada: uma multa recente; uma mensagem na portaria a respeito da entrega dos correios ou até mesmo de que naquela data desejada o espaço de lazer, que antes estava reservado, agora já não está e pode ser agendado, são exemplos de comunicações que necessitam conhecimento rápido dos moradores e do condomínio.
@@ -26,11 +26,11 @@ O produto se posiciona de forma estratégica em oferecer soluções para os prob
 
 ## Público-Alvo
 
-• Administradoras de Condomínios: Empresas que administram condomínios são um dos principais tipos de clientes do ControlCond. A ferramenta agiliza os processos da gestão de um condomínio, como, por exemplo. automatização de cobranças, gestão e cadastro de moradores.. Com o ControlCond, essas empresas terão espaço de crescimento, podendo focar esforços em outras áreas do negócio.
+• Administradoras de Condomínios: Empresas que administram condomínios são um dos principais tipos de clientes do "Zeus - Gestão Condominial". A ferramenta agiliza os processos da gestão de um condomínio, como, por exemplo. automatização de cobranças, gestão e cadastro de moradores. Com o "Zeus - Gestão Condominial", essas empresas terão espaço de crescimento, podendo focar esforços em outras áreas do negócio.
 
-• Síndicos de Condomínios: Síndicos que estão começando ou já administram condomínios por conta própria também são público-alvo do ControlCond. Assim como para as administradoras de condomínios, a ferramenta facilitará os processos de cobrança, gestão de moradores e também a comunicação com os condôminos. Além de se beneficiar de todas as funcionalidades de um morador.
+• Síndicos de Condomínios: Síndicos que estão começando ou já administram condomínios por conta própria também são público-alvo do "Zeus - Gestão Condominial". Assim como para as administradoras de condomínios, a ferramenta facilitará os processos de cobrança, gestão de moradores e também a comunicação com os condôminos. Além de se beneficiar de todas as funcionalidades de um morador.
 
-• Moradores: Moradores de um condomínio são peças chave para o ControlCond existir, já que são fortementes beneficiados com a ferramenta. Com o ControlCond, moradores terão fácil acesso aos avisos do condomínio, cadastro de visitantes e outras facilidades, tendo uma experiência mais tranquila de morar em um condomínio.
+• Moradores: Moradores de um condomínio são peças chave para o "Zeus - Gestão Condominial" existir, já que são fortementes beneficiados com a ferramenta. Com o "Zeus - Gestão Condominial", moradores terão fácil acesso aos avisos do condomínio, cadastro de visitantes e outras facilidades, tendo uma experiência mais tranquila de morar em um condomínio.
 
 # Especificações do Projeto
 
