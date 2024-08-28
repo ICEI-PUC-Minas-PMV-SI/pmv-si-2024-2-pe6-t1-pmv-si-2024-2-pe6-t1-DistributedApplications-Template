@@ -211,8 +211,8 @@ Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplif
 ?
 
 ## Hospedagem
-- Apache
-?
+- AWS em um servidor com servico de IIS
+
 
 > **Links Úteis**:
 >
