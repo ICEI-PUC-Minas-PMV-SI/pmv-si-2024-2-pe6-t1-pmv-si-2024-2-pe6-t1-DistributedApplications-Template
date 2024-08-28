@@ -201,9 +201,9 @@ Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplif
 
 ### Front End
 
-- **Framework:** React Native
-  - **Para Web:** Utilizando a mesma base de código com adaptações para a web
-  - **Para Mobile:** Aplicativos nativos para Android e iOS
+- **Framework:** 
+  - **Para Web:** React
+  - **Para Mobile:** React Native
 - **Linguagens:** JavaScript (ou TypeScript)
 - **IDE de Desenvolvimento:** Visual Studio Code ou outro de preferencia.
 
@@ -212,11 +212,3 @@ Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplif
 
 ## Hospedagem
 - AWS em um servidor com servico de IIS
-
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
