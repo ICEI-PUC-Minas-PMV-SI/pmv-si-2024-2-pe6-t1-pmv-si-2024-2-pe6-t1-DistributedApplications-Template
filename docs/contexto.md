@@ -117,7 +117,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
 |RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos, incluindo criptografia de dados sensíveis |  BAIXA |
 |RNF-005| O sistema deve suportar integrações com APIs externas para ampliação de funcionalidades no futuro |  ALTA |
-|RNF-006| O sistema deve possuir perfil de acesso, delimitando os pevilegios de acesso de acordo com o grupo usuario.  |  BAIXA |
+|RNF-006| O sistema deve possuir perfil de acesso, delimitando os privilégios de acesso de acordo com o grupo usuario.  |  BAIXA |
 |RNF-007| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
