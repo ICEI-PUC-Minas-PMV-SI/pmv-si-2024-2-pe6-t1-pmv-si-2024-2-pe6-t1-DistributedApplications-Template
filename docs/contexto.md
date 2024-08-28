@@ -156,20 +156,73 @@ Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, d
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+## Back End Architecture
 
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
+Para a solução de back end, optamos pelo ecossistema .NET devido à sua robustez e ampla comunidade de suporte. A arquitetura foi estruturada em camadas, inspirada nos princípios do Clean Code, visando promover a clareza e simplicidade mas mantendo uma boa separação de responsabilidades.
+
+Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplificada. Utilizamos repositórios simples sem o emprego de frameworks específicos para ORM (Object-Relational Mapping). Esta escolha visa diminuir a curva de aprendizado em detrimento de uma manutenabilidade que já não seria alcançada sem uma maior especialização do time.
+
+### 1. **Camadas da Arquitetura**
+- **Domain**: 
+  - Núcleo do sistema, contém entidades e regras de negócio essenciais.
+  - Independente de outras camadas.
+- **Services**: 
+  - Executa operações de negócio utilizando as entidades do domínio.
+  - Serve como intermediário entre a API e o domínio.
+- **API**: 
+  - Interface que expõe funcionalidades do sistema para o exterior.
+  - Interage com clientes e delega operações para a camada de Services.
+- **Infra**: 
+  - Implementa detalhes técnicos e operações concretas como acesso a dados e integração com APIs externas.
+
+### 2. **Dependências entre Camadas**
+- Camadas superiores (Domain e Services) são independentes das inferiores (API e Infra).
+- A API depende de Services para processar requisições.
+- Services usa o Domain para lógica de negócio e Infra para operações de suporte.
+- A camada de Infra poderá ter acesso apenas limitado a classes de dominio.
+
+### 3. **Princípios de Design**
+- **Inversão de Dependência**: 
+  - As camadas superiores definem abstrações que as inferiores devem implementar, garantindo a desacoplagem.
+- **Injeção de Dependência**: 
+  - Técnica usada para manter as camadas de negócio limpas de implementações específicas, facilitando manutenção e expansão.
+
+### 4. **Fluxo de Controle**
+- O controle flui da camada API para Services e então para Domain.
+- A Infra é utilizada conforme necessário por Services para completar operações.
+
+
+![image](https://github.com/user-attachments/assets/4daccedc-f1c8-4506-b546-ab791c9e8c6b)
+
 
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+### Back End
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- **Linguagem de Programação:** C# (.NET)
+- **Framework:** .NET 8/9
+- **Banco de Dados:** MySQL
+- **API:** ASP.NET Core Web API
+ - **Documentação de API:** Swagger para documentação automática e interface de teste de APIs
+- **IDE de Desenvolvimento:** Visual Studio 2019/2022
+- **Ferramentas de Versionamento:** Git, usando GitHub
+- **Ferramentas de Teste:** xUnit, se necessário.
+
+### Front End
+
+- **Framework:** React Native
+  - **Para Web:** Utilizando a mesma base de código com adaptações para a web
+  - **Para Mobile:** Aplicativos nativos para Android e iOS
+- **Linguagens:** JavaScript (ou TypeScript)
+- **IDE de Desenvolvimento:** Visual Studio Code ou outro de preferencia.
+
+### Serviços Web e Ferramentas Adicionais
+?
 
 ## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+- Apache
+?
 
 > **Links Úteis**:
 >
