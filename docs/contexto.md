@@ -101,7 +101,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve permitir o cadastro, atualização e exclusão de informações pessoais de alunos | ALTA |
-|RF-002| O sistema deve permitir o acompanhamento de pagamentos | ALTA |
+|RF-002| O sistema deve fazer a gestão de pagamentos | ALTA |
 |RF-003| O sistema deve permitir a atualização e gerenciamento de planos de treinamento dos alunos | ALTA |
 |RF-004| O sistema deve oferecer uma interface de consulta rápida para dispositivos móveis, permitindo ajustes imediatos | ALTA |
 |RF-005| O sistema deve permitir o acesso e consulta a informações completas dos alunos a partir de qualquer dispositivo | ALTA |
