@@ -143,7 +143,7 @@ Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, d
 
 ## Back End Architecture
 
-Para a solução de back end, optamos pelo ecossistema .NET devido à sua robustez e ampla comunidade de suporte. A arquitetura foi estruturada em camadas, inspirada nos princípios do Clean Code, visando promover a clareza e simplicidade mas mantendo uma boa separação de responsabilidades.
+Para a solução de back end, optamos pelo ecossistema .NET devido à sua robustez e ampla comunidade de suporte. A arquitetura foi estruturada em camadas, inspirada nos princípios do Clean Architecture, visando promover a clareza e simplicidade mas mantendo uma boa separação de responsabilidades.
 
 Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplificada. Utilizamos repositórios simples sem o emprego de frameworks específicos para ORM (Object-Relational Mapping). Esta escolha visa diminuir a curva de aprendizado em detrimento de uma manutenabilidade que já não seria alcançada sem uma maior especialização do time.
 
