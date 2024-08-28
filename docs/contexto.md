@@ -130,13 +130,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| A solução deve ser desenvolvida utilizando as tecnologias especificadas (C#, .NET, React, MySQL) |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 # Catálogo de Serviços
 
@@ -178,10 +175,6 @@ Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplif
 ### 4. **Fluxo de Controle**
 - O controle flui da camada API para Services e então para Domain.
 - A Infra é utilizada conforme necessário por Services para completar operações.
-
-
-![image](https://github.com/user-attachments/assets/4daccedc-f1c8-4506-b546-ab791c9e8c6b)
-
 
 
 ## Tecnologias Utilizadas
