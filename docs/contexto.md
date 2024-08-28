@@ -120,8 +120,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006| O sistema deve possuir perfil de acesso, delimitando os privilégios de acesso de acordo com o grupo usuario.  |  BAIXA |
 |RNF-007| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
