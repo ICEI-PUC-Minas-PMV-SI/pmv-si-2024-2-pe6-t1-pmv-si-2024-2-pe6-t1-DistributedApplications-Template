@@ -26,7 +26,6 @@ Este público vê a tecnologia como uma ferramenta prática e orientada a result
 - **Precisão de Dados**: Minimização de erros nas informações financeiras e de alunos para evitar perdas financeiras e manter a integridade dos dados.
 - **Acesso Rápido a Informações**: Capacidade de acessar rapidamente informações completas e atualizadas, facilitando decisões rápidas e informadas.
 - **Mobilidade**: Acesso via dispositivos móveis para permitir gestão à distância e em tempo real, ideal para gerentes e proprietários em constante movimento.
-- **Relatórios e Análises**: Geração de relatórios detalhados para análise de desempenho do negócio e planejamento estratégico.
 
 ### Persona 1: Renan
 
@@ -90,15 +89,6 @@ Guilherme é o proprietário de uma academia de porte médio. Ele entrou no ramo
 **Como a Solução Pode Ajudá-lo:**
 - Um sistema que ofereça um painel de controle intuitivo para gerenciar todas as operações da academia, incluindo finanças, agendamentos e acompanhamento de clientes.
 - Integração com outras plataformas para um fluxo de trabalho mais harmonioso e menos fragmentado.
-
----
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 # Especificações do Projeto
 
