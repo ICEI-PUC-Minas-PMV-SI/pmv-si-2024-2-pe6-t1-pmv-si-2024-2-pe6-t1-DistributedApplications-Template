@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import NavbarLeft from '@/components/Site/NavbarLeft.vue';
 import NavbarRight from '@/components/Site/NavbarRight.vue';
+import Footer from '@/components/Site/Footer.vue';
 </script>
 
 <template>
@@ -15,7 +16,7 @@ import NavbarRight from '@/components/Site/NavbarRight.vue';
     <router-view />
   </v-main>
 
-  <v-footer app>
-    <span>Zeus Software Company &copy; 2024</span>
+  <v-footer>
+    <Footer />
   </v-footer>
 </template>

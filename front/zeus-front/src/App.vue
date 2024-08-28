@@ -15,11 +15,17 @@ body {
 }
 
 @media (min-width: 1024px) {
-    #app {
-        display: block;
-        grid-template-columns: 1fr 1fr;
-        padding: 0 0;
-    }
+  #app {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  #app {
+    padding: 0 0;
+  }
 }
 </style>
 
