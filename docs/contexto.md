@@ -110,10 +110,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| A interface do sistema deve ser de fácil utilização e intuitiva para os usuarios, sem
-necesitar de treinamento.  |  BAIXA | 
-|RNF-004| O sistema deve possuir perfil de acesso, delimitando os pevilegios de acesso de
-acordo com o grupo usuario.  |  BAIXA | 
+|RNF-003| A interface do sistema deve ser de fácil utilização e intuitiva para os usuarios, sem necesitar de treinamento.  |  BAIXA | 
+|RNF-004| O sistema deve possuir perfil de acesso, delimitando os pevilegios de acesso de acordo com o grupo usuario.  |  BAIXA | 
 |RNF-005|O Sistema deve ser acessado na Web e aplicativos para tablet e smartphone | MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
