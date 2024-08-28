@@ -100,13 +100,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | BAIXA | 
-|RF-002| Emitir um relatório de tarefas no mês   | BAIXA |
-|RF-003| O sistema deve permitir o cadastro, atualização e exclusão de informações pessoais de alunos | ALTA |
-|RF-004| O sistema deve permitir o acompanhamento de pagamentos | ALTA |
-|RF-005| O sistema deve permitir a atualização e gerenciamento de planos de treinamento dos alunos | ALTA |
-|RF-006| O sistema deve oferecer uma interface de consulta rápida para dispositivos móveis, permitindo ajustes imediatos | ALTA |
-|RF-007| O sistema deve permitir o acesso e consulta a informações completas dos alunos a partir de qualquer dispositivo | ALTA |
+|RF-001| O sistema deve permitir o cadastro, atualização e exclusão de informações pessoais de alunos | ALTA |
+|RF-002| O sistema deve permitir o acompanhamento de pagamentos | ALTA |
+|RF-003| O sistema deve permitir a atualização e gerenciamento de planos de treinamento dos alunos | ALTA |
+|RF-004| O sistema deve oferecer uma interface de consulta rápida para dispositivos móveis, permitindo ajustes imediatos | ALTA |
+|RF-005| O sistema deve permitir o acesso e consulta a informações completas dos alunos a partir de qualquer dispositivo | ALTA |
+|RF-006| Emitir um relatório referente aos status de pagamento dos alunos   | BAIXA |
 
 
 ### Requisitos não Funcionais
@@ -114,12 +113,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo, garantindo que a interface funcione adequadamente em dispositivos móveis e web | ALTA | 
-|RNF-002| A interface do sistema deve ser intuitiva e fácil de usar, sem necessidade de treinamento |  ALTA |
-|RNF-003| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-004| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
-|RNF-005| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos, incluindo criptografia de dados sensíveis |  BAIXA |
-|RNF-006| O sistema deve suportar integrações com APIs externas para ampliação de funcionalidades no futuro |  ALTA |
-|RNF-007| O sistema deve possuir perfil de acesso, delimitando os pevilegios de acesso de acordo com o grupo usuario.  |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
+|RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos, incluindo criptografia de dados sensíveis |  BAIXA |
+|RNF-005| O sistema deve suportar integrações com APIs externas para ampliação de funcionalidades no futuro |  ALTA |
+|RNF-006| O sistema deve possuir perfil de acesso, delimitando os pevilegios de acesso de acordo com o grupo usuario.  |  BAIXA |
+|RNF-007| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
