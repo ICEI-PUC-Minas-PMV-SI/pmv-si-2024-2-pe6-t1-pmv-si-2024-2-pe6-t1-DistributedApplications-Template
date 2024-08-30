@@ -72,7 +72,46 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Catálogo de Serviços
 
-Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
+1. **Gerenciamento de Dados de Funcionários**  
+  • **Descrição:** Permite o cadastro, atualização e exclusão de informações dos funcionários do condomínio, incluindo dados pessoais, horários de trabalho, e funções.  
+  • **Funcionalidade:** O sistema facilita o controle de presença, atualização de perfis, e registro de atividades diárias. 
+
+2. **Gerenciamento de Dados de Moradores**  
+  • **Descrição:** Centraliza todas as informações dos moradores, como dados pessoais, apartamentos vinculados, e histórico de comunicações.  
+  • **Funcionalidade:** Facilita a administração do cadastro dos moradores e permite atualizações rápidas, garantindo que todas as informações estejam sempre corretas.
+
+3. **Gerenciamento de Dados de Apartamentos**  
+  • **Descrição:** Permite a administração completa dos apartamentos, associando-os aos respectivos moradores, gerando histórico de ocupação e facilitando a gestão de recursos e manutenções.  
+  • **Funcionalidade:** Oferece busca e filtros por apartamento e por morador, facilitando a localização rápida de informações específicas.
+
+4. **Gerenciamento de Dados de Usuários**  
+  • **Descrição:** Administra os perfis de todos os usuários da plataforma, incluindo moradores, síndicos e administradores, garantindo o controle de acesso e permissões dentro do sistema.  
+  • **Funcionalidade:** Suporta diferentes níveis de permissão, permitindo o acesso restrito a funcionalidades conforme o perfil do usuário.
+
+5. **Autenticação de Usuários**  
+  • **Descrição:** Proporciona um sistema de login seguro, onde cada usuário possui credenciais exclusivas para acessar a plataforma.  
+  • **Funcionalidade:** Inclui recuperação de senha, autenticação em dois fatores (opcional), e suporte para login via redes sociais.
+
+6. **Buscas por Apartamento ou Nome do Morador**  
+  • **Descrição:** O sistema permite realizar buscas rápidas por apartamento ou nome do morador, facilitando a localização de informações específicas.  
+  • **Funcionalidade:** A ferramenta de busca é eficiente, permitindo que a administração e os moradores encontrem rapidamente os dados necessários.
+
+7. **Controle de Entrada e Saída de Visitantes**  
+  • **Descrição:** Automatiza o registro e monitoramento da entrada e saída de visitantes, garantindo maior segurança e controle no condomínio.  
+  • **Funcionalidade:** Inclui a emissão de permissões de entrada, registro de horários e notificações para moradores sobre a chegada de visitantes.
+
+8. **Emissão de Relatórios**  
+  • **Descrição:** Gera relatórios detalhados sobre diferentes aspectos da gestão condominial, como visitas, comunicados, e movimentações financeiras.  
+  • **Funcionalidade:** Relatórios podem ser personalizados conforme a necessidade e exportados em diferentes formatos (PDF, Excel).
+
+9. **Gerenciamento de Documentos para Download**  
+  • **Descrição:** Centraliza documentos importantes do condomínio, como atas de reuniões, estatutos, e balancetes, tornando-os acessíveis para download por moradores e administradores.  
+  • **Funcionalidade:** Suporta organização por categorias e datas, facilitando a busca e acesso a documentos relevantes.
+
+10. **Quadro de Avisos Digital**  
+  • **Descrição:** Disponibiliza um quadro de avisos virtual onde a administração pode publicar comunicados, eventos, e notificações importantes para todos os moradores.  
+  • **Funcionalidade:** Permite agendamento de postagens, notificações automáticas para novos avisos, e a possibilidade de segmentar o público-alvo das comunicações.
+
 
 # Arquitetura da Solução
 
