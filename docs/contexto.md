@@ -194,8 +194,5 @@ Em relação ao acesso ao banco de dados, decidimos adotar uma abordagem simplif
 - **Linguagens:** JavaScript (ou TypeScript)
 - **IDE de Desenvolvimento:** Visual Studio Code ou outro de preferencia.
 
-### Serviços Web e Ferramentas Adicionais
-?
-
 ## Hospedagem
 - AWS em um servidor com servico de IIS
