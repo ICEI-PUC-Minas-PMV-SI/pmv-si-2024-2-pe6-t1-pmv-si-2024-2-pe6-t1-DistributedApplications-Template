@@ -135,7 +135,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 - Proteção de Privacidade de Dados: O sistema está em conformidade com a Lei Geral de Proteção de Dados, incluindo controle de acesso e privacidade por padrão (Privacy by Default).
 
 # Arquitetura da Solução
-![image](https://github.com/user-attachments/assets/5143eb46-b67a-40fd-9afc-dc9cca5399bf)
+![image](https://github.com/user-attachments/assets/6e22a7c1-bdff-45af-8a1b-c12d6d40c0bf)
 
 ## Back End Architecture
 
