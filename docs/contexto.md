@@ -129,7 +129,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Catálogo de Serviços
 
-Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
+- Gestão de Alunos: Permite o registro e a edição das informações pessoais, de contato e de saúde dos alunos.
+- Gestão de Pagamentos: Automatiza o acompanhamento de pagamentos, permitindo a visualização do status de quitação das mensalidades e a geração de relatórios de inadimplência.
+- Integração com Dispositivos Móveis: Oferece acesso às funcionalidades principais através de um aplicativo móvel, permitindo que os gestores utilizem a plataforma de qualquer lugar.
+- Proteção de Privacidade de Dados: O sistema está em conformidade com a Lei Geral de Proteção de Dados, incluindo controle de acesso e privacidade por padrão (Privacy by Default).
 
 # Arquitetura da Solução
 
