@@ -13,7 +13,7 @@ Este projeto foi motivado pela crescente necessidade de soluções eficientes pa
 ## Público-Alvo
 
 ### Descrição
-O público-alvo para a solução de gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de todos os tamanhos. Este grupo é responsável pela operação diária e estratégica dos espaços fitness e busca otimizar processos, melhorar a eficiência operacional e aumentar a satisfação dos clientes. O público secundário pode incluir funcionários que usam o sistema para tarefas diárias como check-ins de alunos, atualizações de planos de treino e monitoramento de frequência.
+O público-alvo para a solução de gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de porte pequeno, aproximadamente 200 alunos por mês. O objetivo é manter um cadastro atualizado dos alunos da Academia para registro e fazer um controle mensal de pagamentos com o objetivo de diminuir a inadimplência.
 
 ### Conhecimentos Prévios
 Os usuários-alvo não necessariamente possuem conhecimentos avançados em tecnologia, a solução deve ser intuitiva e fácil de usar. Podem ter familiaridade com sistemas de gerenciamento tradicionais e ferramentas de escritório, como planilhas, mas a experiência com sistemas específicos para academias pode variar.
