@@ -13,7 +13,7 @@ Este projeto foi motivado pela crescente necessidade de soluções eficientes pa
 ## Público-Alvo
 
 ### Descrição
-O público-alvo para a solução de gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de porte pequeno, aproximadamente 200 alunos por mês. O objetivo é manter um cadastro atualizado dos alunos da Academia para registro e fazer um controle mensal de pagamentos com o objetivo de diminuir a inadimplência.
+O público-alvo para a solução de gestão de academias engloba principalmente proprietários, gerentes e administradores de academias de pequeno porte, aproximadamente 200 alunos por mês. O objetivo é manter um cadastro atualizado dos alunos da Academia para possíveis comunicações e fazer um controle mensal de pagamentos com o objetivo de diminuir a inadimplência.
 
 ### Conhecimentos Prévios
 Os usuários-alvo não necessariamente possuem conhecimentos avançados em tecnologia, a solução deve ser intuitiva e fácil de usar. Podem ter familiaridade com sistemas de gerenciamento tradicionais e ferramentas de escritório, como planilhas, mas a experiência com sistemas específicos para academias pode variar.
@@ -40,7 +40,7 @@ Renan é um professor de educação física especializado em artes marciais, det
 
 **Objetivos:**
 - Automatizar a gestão de alunos para dedicar mais tempo às suas aulas.
-- Manter registros precisos de pagamentos, presenças e evolução dos alunos.
+- Manter registros precisos de pagamentos.
 - Expansão do negócio para eventualmente contratar assistentes ou ampliar o local de aulas.
 
 **Desafios:**
@@ -102,9 +102,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve fazer a gestão das  informações pessoais de alunos | ALTA |
 |RF-002| O sistema deve fazer a gestão de pagamentos | ALTA |
-|RF-004| O sistema deve oferecer uma interface de consulta para dispositivos móveis, permitindo edição | ALTA |
-|RF-005| O sistema deve permitir o acesso e consulta a informações dos alunos a partir de qualquer dispositivo | ALTA |
-|RF-006| Emitir relatório referente aos status de pagamento dos alunos   | BAIXA |
+|RF-003| O sistema deve oferecer uma interface de consulta para dispositivos móveis, permitindo edição | ALTA |
+|RF-004| O sistema deve permitir o acesso e consulta a informações dos alunos a partir de qualquer dispositivo | ALTA |
+|RF-005| Emitir relatório referente aos status de pagamento dos alunos   | BAIXA |
 
 
 ### Requisitos não Funcionais
@@ -116,8 +116,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
 |RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos, incluindo criptografia de dados sensíveis |  BAIXA |
 |RNF-005| O sistema deve suportar integrações com APIs externas para ampliação de funcionalidades no futuro |  ALTA |
-|RNF-006| O sistema deve possuir perfil de acesso, delimitando os privilégios de acesso de acordo com o grupo usuario.  |  BAIXA |
-|RNF-007| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
+|RNF-006| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
 
 ## Restrições
 
@@ -127,9 +126,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| A solução deve ser desenvolvida utilizando as tecnologias especificadas (C#, .NET, React, MySQL) |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
 
 # Catálogo de Serviços
 
