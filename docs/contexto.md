@@ -22,7 +22,7 @@ Os usuários-alvo não necessariamente possuem conhecimentos avançados em tecno
 Este público vê a tecnologia como uma ferramenta prática e orientada a resultados, buscando soluções que proporcionem eficiência, confiabilidade e valor agregado. A aceitação será mais alta se a tecnologia mostrar claramente sua capacidade de simplificar operações, reduzir erros e economizar tempo.
 
 ### Necessidades
-- **Automatização de Processos**: Eliminação de tarefas manuais, automatizando registros de alunos, acompanhamento de pagamentos e atualizações de planos.
+- **Automatização de Processos**: Eliminação de tarefas manuais, automatizando registros de alunos e acompanhamento de pagamentos.
 - **Precisão de Dados**: Minimização de erros nas informações financeiras e de alunos para evitar perdas financeiras e manter a integridade dos dados.
 - **Acesso Rápido a Informações**: Capacidade de acessar rapidamente informações completas e atualizadas, facilitando decisões rápidas e informadas.
 - **Mobilidade**: Acesso via dispositivos móveis para permitir gestão à distância e em tempo real, ideal para gerentes e proprietários em constante movimento.
