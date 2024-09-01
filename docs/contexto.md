@@ -2,7 +2,7 @@
 A gestão eficiente é fundamental para o sucesso de qualquer empreendimento, e no caso das academias, isso não é diferente. À medida que o setor fitness continua a crescer, uma boa administração torna-se essencial para expandir e diversificar o negócio. O artigo intitulado "The Impact of COVID-19 on Physical Activity and Fitness Trends: A Review of Current Evidence" publicado na revista "Frontiers in Public Health" aborda o aumento da demanda por práticas de vida saudável após a pandemia de COVID-19, academias de todos os portes enfrentam o desafio de lidar com um volume crescente de dados e processos administrativos. Se não forem gerenciados de forma adequada, esses desafios podem comprometer tanto o funcionamento quanto a lucratividade da academia. Nesse cenário, a tecnologia se apresenta como uma aliada indispensável, proporcionando ferramentas que facilitam a gestão do negócio e melhoram a experiência tanto dos gestores quanto dos alunos.
 
 ## Problema
-O problema central abordado por este projeto é a ineficiência na gestão das informações dos alunos em academias, atualmente realizada por meio de sistemas pouco integrados. Isso abrange desde o acompanhamento de pagamentos e a atualização de planos de treinamento, até o gerenciamento de informações pessoais e de saúde dos alunos. Estudos indicam que a gestão semiautomática desses dados tende a gerar erros, como falhas no controle de inadimplências e perda de dados importantes, resultando em prejuízos financeiros e insatisfação dos clientes. Tais problemas podem comprometer a lucratividade e a qualidade do serviço prestado pelas academias, reforçando a necessidade de soluções tecnológicas mais eficientes para otimizar a gestão e melhorar a experiência dos usuários (Tchórzewski et al., 2023; Chaurasiya et al., 2024; Booking Ninjas, 2024)​
+O problema central abordado por este projeto é a ineficiência na gestão das informações dos alunos em academias, atualmente realizada por meio de sistemas pouco integrados. Isso abrange desde o acompanhamento de pagamentos e a atualização de planos de treinamento, até o gerenciamento de informações dos alunos. Estudos indicam que a gestão semiautomática desses dados tende a gerar erros, como falhas no controle de inadimplências e perda de dados importantes, resultando em prejuízos financeiros e insatisfação dos clientes. Tais problemas podem comprometer a lucratividade e a qualidade do serviço prestado pelas academias, reforçando a necessidade de soluções tecnológicas mais eficientes para otimizar a gestão e melhorar a experiência dos usuários (Tchórzewski et al., 2023; Chaurasiya et al., 2024; Booking Ninjas, 2024)​
 
 ## Objetivos
 Desenvolver uma solução web e mobile para a gestão de alunos e controle de pagamentos de uma Academia.
@@ -100,19 +100,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| O sistema deve fazer a gestão das  informações pessoais de alunos | ALTA |
-|RF-002| O sistema deve fazer a gestão de pagamentos | ALTA |
-|RF-003| O sistema deve oferecer uma interface de consulta para dispositivos móveis, permitindo edição | ALTA |
-|RF-004| O sistema deve permitir o acesso e consulta a informações dos alunos a partir de qualquer dispositivo | ALTA |
-|RF-005| Emitir relatório referente aos status de pagamento dos alunos   | BAIXA |
-
+|ID    | Descrição do Requisito | Responsável |
+|------|------------------------|-------------|
+|RF-001| O sistema deve fazer a gestão das informações dos alunos | Rodrigo, Vinícius |
+|RF-002| O sistema deve fazer a gestão de pagamentos | Fernando, Leandro |
+|RF-003| O sistema deve permitir a atualização e o gerenciamento de planos de treinamento dos alunos | Laryssa, Douglas |
+|RF-004| O sistema deve prover relatórios de gestão | Cada desenvolvedor |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
+|ID     | Descrição do Requisito | Prioridade |
+|-------|------------------------|------------|
 |RNF-001| O sistema deve ser responsivo, garantindo que a interface funcione adequadamente em dispositivos móveis e web | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 |RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
