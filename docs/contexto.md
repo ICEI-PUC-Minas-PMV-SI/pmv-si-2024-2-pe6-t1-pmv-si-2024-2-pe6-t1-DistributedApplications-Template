@@ -4,18 +4,21 @@ Em um condomínio onde há diversas famílias, numerosas ou mesmo pequenas, as i
 Nosso propósito com aplicativo "Zeus - Gestão Condominial" é facilitar a comunicação e divulgação de informações relevantes aos inquilinos, igualmente os inquilinos têm a possibilidade de se comunicar com o condomínio sem burocracia e com facilidade. Desta forma, a automatização dos comunicados será mais precisa e eficiente, possibilitando que os moradores tenham conhecimento das alterações e novidades do condomínio.
 
 ## Problema
+
 Seja um aviso sobre usos de máscaras que podem ou não ser obrigatórias dentro do condomínio; um boleto que esteja atrasado; indicação de que há um visitante permitido para entrada: uma multa recente; uma mensagem na portaria a respeito da entrega dos correios ou até mesmo de que naquela data desejada o espaço de lazer, que antes estava reservado, agora já não está e pode ser agendado, são exemplos de comunicações que necessitam conhecimento rápido dos moradores e do condomínio.
-Por não haver a automatização desses processos, muitos moradores acabam por ficar com boletos e multas em atraso sem seu conhecimento; pela  correria do dia a dia não verificam os papéis que ficam colados nas paredes e que podem ter algum aviso importante; moradores novos não conhecem as regras e não conseguem se comunicar com facilidade; dentre tantos outros problemas existentes, um aplicativo que, com essas funcionalidades, resultaria no maior controle entre as partes e possibilita melhorias necessárias que pode-se não haver conhecimento ainda.
+Por não haver a automatização desses processos, muitos moradores acabam por ficar com boletos e multas em atraso sem seu conhecimento; pela correria do dia a dia não verificam os papéis que ficam colados nas paredes e que podem ter algum aviso importante; moradores novos não conhecem as regras e não conseguem se comunicar com facilidade; dentre tantos outros problemas existentes, um aplicativo que, com essas funcionalidades, resultaria no maior controle entre as partes e possibilita melhorias necessárias que pode-se não haver conhecimento ainda.
 
 ## Objetivos Geral e Específicos
 
 ### Objetivo Geral
+
 O objetivo do Sistema de Gestão de Condomínios é possibilitar que haja uma comunicação efetiva entre o síndico do condomínio e seus residentes, da mesma forma que seja possível entre os residentes e o síndico.
 
 ### Objetivos Específicos
+
 • Centralizar informações de gestão relevantes ao condomínio tais como, disponibilizar atas, estatutos e balancetes de verificação.
 • Centralizar informações de comunicação entre administração e moradores do condomínio.
-• Controlar cadastro  de moradores, funcionários e visitantes.
+• Controlar cadastro de moradores, funcionários e visitantes.
 • Gerenciar entrada e saída de visitantes.
 
 ## Justificativa
@@ -38,54 +41,84 @@ O produto se posiciona de forma estratégica em oferecer soluções para os prob
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----|-----|
-|RF-001| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE FUNCIONÁRIOS | ALTA | Filipe|
-|RF-002| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE MORADOR | ALTA |
-|RF-003| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE APARTAMENTO | ALTA |
-|RF-004| O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE USUÁRIO | ALTA |
-|RF-005| O SISTEMA DEVE PERMITIR A AUTENTICAÇÃO DE USUÁRIOS | ALTA |
-|RF-006| O SISTEMA DEVE PERMITIR BUSCAS POR APARTAMENTO, OU NOME DO MORADOR | MÉDIA |
-|RF-007| O SISTEMA DEVE PERMITIR O CONTROLE DE ENTRADA E SAÍDA DE VISITANTES | MÉDIA |
-|RF-008| O SISTEMA DEVE PERMITIR A EMISSÃO DE RELATÓRIOS | BAIXA |
-|RF-009| O SISTEMA DEVE PERMITIR O GERENCIMENTO DE DOCUMENTOS PARA DOWNLOAD | BAIXA |
-|RF-010| O SISTEMA DEVE PERMITIR O CONTROLE DE QUADRO DE AVISOS | BAIXA |
+| ID     | Descrição do Requisito                                           | Prioridade | Responsável |
+| ------ | ---------------------------------------------------------------- | ---------- | ----------- |
+| RF-001 | O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE FUNCIONÁRIOS | ALTA       | Filipe      |
+| RF-002 | O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE MORADOR      | ALTA       | Vitória     |
+| RF-003 | O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE APARTAMENTO  | ALTA       | Artur       |
+| RF-004 | O SISTEMA DEVE PERMITIR O GERENCIAMENTO DE DADOS DE USUÁRIO      | ALTA       | Sandro      |
+| RF-005 | O SISTEMA DEVE PERMITIR A AUTENTICAÇÃO DE USUÁRIOS               | ALTA       | Adriano     |
+| RF-006 | O SISTEMA DEVE PERMITIR O CONTROLE DE QUADRO DE AVISOS           | MÉDIA      | Sandro      |
 
 ### Requisitos não Funcionais
 
-|ID      | Descrição do Requisito  |Prioridade |
-|------- |-------------------------|----|
-|RNF-001| Usabilidade: O sistema deve permitir que complete uma tarefa de cadastro em no máximo 1 minuto. |  BAIXA |
-|RNF-002| Disponibilidade: O sistema deve ficar online 24H por dia, 7 dias na semana |  BAIXA |
-|RNF-003| Segurança: O produto deve restringir o acesso por meio de senhas individuais para o usuário. |  BAIXA |
-|RNF-004| Desempenho: O sistema deve ser capaz de gerar relatórios em até 30 segundos. |  BAIXA |
-|RNF-005| Usabilidade: Para utilizar o sistema, é necessário ter noções básicas de tecnologia e operação de computadores. |  BAIXA |
+| ID      | Descrição do Requisito                                                                                          | Prioridade |
+| ------- | --------------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | Usabilidade: O sistema deve permitir que complete uma tarefa de cadastro em no máximo 1 minuto.                 | BAIXA      |
+| RNF-002 | Disponibilidade: O sistema deve ficar online 24H por dia, 7 dias na semana                                      | BAIXA      |
+| RNF-003 | Segurança: O produto deve restringir o acesso por meio de senhas individuais para o usuário.                    | BAIXA      |
+| RNF-004 | Desempenho: O sistema deve ser capaz de gerar relatórios em até 30 segundos.                                    | BAIXA      |
+| RNF-005 | Usabilidade: Para utilizar o sistema, é necessário ter noções básicas de tecnologia e operação de computadores. | BAIXA      |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID  | Restrição                                             |
+| --- | ----------------------------------------------------- |
+| 01  | O projeto deverá ser entregue até o final do semestre |
+| 02  | Não pode ser desenvolvido um módulo de backend        |
 
 # Catálogo de Serviços
 
-Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
+1. **Gerenciamento de Dados de Funcionários**  
+   • **Descrição:** Permite o cadastro, atualização e exclusão de informações dos funcionários do condomínio, incluindo dados pessoais, horários de trabalho, e funções.  
+   • **Funcionalidade:** O sistema facilita o controle de presença, atualização de perfis, e registro de atividades diárias.
+
+2. **Gerenciamento de Dados de Moradores**  
+   • **Descrição:** CPermite o cadastro, atualização e exclusão de informações dos moradores, como dados pessoais, e apartamentos vinculados.  
+   • **Funcionalidade:** Facilita a administração do cadastro dos moradores e permite atualizações rápidas, garantindo que todas as informações estejam sempre corretas.
+
+3. **Gerenciamento de Dados de Apartamentos**  
+   • **Descrição:** Permite o cadastro, atualização e exclusão de informações dos apartamentos, associando-os aos respectivos moradores, gerando histórico de ocupação e facilitando a gestão de recursos e manutenções.  
+   • **Funcionalidade:** Oferece busca e filtros por apartamento e por morador, facilitando a localização rápida de informações específicas.
+
+4. **Gerenciamento de Usuários**  
+   • **Descrição:** Administra os perfis de todos os usuários da plataforma, incluindo moradores, síndicos e administradores, garantindo o controle de acesso e permissões dentro do sistema.  
+   • **Funcionalidade:** Suporta criação e autenticação dos usuários, recuperação de senha, configuração de diferentes níveis de permissão, permitindo o acesso restrito a funcionalidades conforme o perfil do usuário.
+
+5. **Quadro de Avisos Digital**  
+   • **Descrição:** Disponibiliza um quadro de avisos virtual onde a administração pode publicar comunicados, eventos, e notificações importantes para todos os moradores.  
+   • **Funcionalidade:** Permite agendamento de postagens, notificações automáticas para novos avisos, e a possibilidade de segmentar o público-alvo das comunicações.
 
 # Arquitetura da Solução
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
-
+![Desenho da Arquitetura do Solução](./img/PUC%20S6.drawio.png)
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+### Aplicação Web Front-end
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+A aplicação web front-end será desenvolvida utilizando o framework JavaScript [Vue.js](https://vuejs.org/), em conjunto com a biblioteca de componentes [Vuetify](https://vuetifyjs.com/en/).
+
+### Aplicação Mobile
+
+A aplicação web front-end será desenvolvida utilizando o framework JavaScript multiplataforma [React Native](https://reactnative.dev/).
+
+### Microsserviços backend
+
+Os 5 microsserviços backend serão desenvolvidos utilizando [Node.js](https://nodejs.org/en), um ambiente multiplataforma para JavaScript e MySQL como banco de dados relacional.
+
+### Infraestrutura
+
+Todas as aplicações serão implantadas utilizando a infraestrutura da AWS, incluindo máquinas AWS EC2 para executar os microsserviços backend, AWS API Gateway para centralizar a comunicação entre o cliente e os microsserviços, e buckets AWS S3 para distribuir os arquivos estáticos da aplicação web front-end.
+
+### Exemplo de interação de usuário
+
+O diagrama abaixo exemplifica como as tecnologias se relacionam em uma requisição para atualizar os dados de um usuário, relacionando o mesmo com um apartamento.
+![Exemplo de requisição para atualizar dados do usuário](./img/PUC%20S6-Exemplo%20de%20requisição.drawio.png)
 
 ## Hospedagem
 
