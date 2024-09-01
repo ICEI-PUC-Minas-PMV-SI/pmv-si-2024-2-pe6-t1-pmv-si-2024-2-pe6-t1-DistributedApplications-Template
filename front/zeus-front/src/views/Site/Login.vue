@@ -1,7 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { useUserStore } from '@/stores/user';
+
+const router = useRouter();
 
 const visible = ref(false)
+
+function login() {
+  useUserStore().setIsAutenticated(true)
+  router.push('/dashboard');
+}
 </script>
 
 <template>
@@ -17,7 +26,7 @@ const visible = ref(false)
 
       <v-text-field
         density="compact"
-        placeholder="Email address"
+        placeholder="Endereço de E-mail"
         prepend-inner-icon="mdi-email-outline"
         variant="outlined"
       ></v-text-field>
@@ -38,7 +47,7 @@ const visible = ref(false)
         :append-inner-icon="visible ? 'mdi-eye-off' : 'mdi-eye'"
         :type="visible ? 'text' : 'password'"
         density="compact"
-        placeholder="Enter your password"
+        placeholder="Insira sua senha"
         prepend-inner-icon="mdi-lock-outline"
         variant="outlined"
         @click:append-inner="visible = !visible"
@@ -50,6 +59,7 @@ const visible = ref(false)
         size="large"
         variant="tonal"
         block
+        @click="login"
       >
         Log In
       </v-btn>

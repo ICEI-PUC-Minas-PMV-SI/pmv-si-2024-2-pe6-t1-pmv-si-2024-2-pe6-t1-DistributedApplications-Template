@@ -16,18 +16,16 @@ const services = ref([
   <v-container class="d-flex flex-column align-center justify-center fill-height">
     
     <v-row>
-      <v-col sm="12" md="7" class="text-center">
+      <v-col sm="12" md="7">
         <h1 class="text-h3">Bem-vindo ao Sistema de Gestão de Condomínio</h1>
         <p class="text-h6">Gerencie seu condomínio de forma eficiente e prática.</p>
-        <div class="position-absolute" style="left: 120px;">
-          <v-img
-            width="600"
-            class="rounded-lg"
-            aspect-ratio="16/9"
-            cover
-            src="https://st2.depositphotos.com/4743681/47108/i/450/depositphotos_471084482-stock-photo-cityscape-residential-area-modern-apartment.jpg"
-          />
-        </div>
+        <v-img
+          width="600"
+          class="rounded-lg"
+          aspect-ratio="16/9"
+          cover
+          src="https://st2.depositphotos.com/4743681/47108/i/450/depositphotos_471084482-stock-photo-cityscape-residential-area-modern-apartment.jpg"
+        />
       </v-col>
       <v-col sm="12" md="5">
         <v-card class="h-100 pa-4 d-flex flex-column justify-space-between">
