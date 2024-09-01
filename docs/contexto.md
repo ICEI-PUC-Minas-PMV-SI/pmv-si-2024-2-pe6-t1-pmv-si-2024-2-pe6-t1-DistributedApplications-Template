@@ -99,9 +99,26 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+### Aplicação Web Front-end
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+A aplicação web front-end será desenvolvida utilizando o framework JavaScript [Vue.js](https://vuejs.org/), em conjunto com a biblioteca de componentes [Vuetify](https://vuetifyjs.com/en/).
+
+### Aplicação Mobile
+
+A aplicação web front-end será desenvolvida utilizando o framework JavaScript multiplataforma [React Native](https://reactnative.dev/).
+
+### Microsserviços backend
+
+Os 5 microsserviços backend serão desenvolvidos utilizando [Node.js](https://nodejs.org/en), um ambiente multiplataforma para JavaScript e MySQL como banco de dados relacional.
+
+### Infraestrutura
+
+Todas as aplicações serão implantadas utilizando a infraestrutura da AWS, incluindo máquinas AWS EC2 para executar os microsserviços backend, AWS API Gateway para centralizar a comunicação entre o cliente e os microsserviços, e buckets AWS S3 para distribuir os arquivos estáticos da aplicação web front-end.
+
+### Exemplo de interação de usuário
+
+O diagrama abaixo exemplifica como as tecnologias se relacionam em uma requisição para atualizar os dados de um usuário, relacionando o mesmo com um apartamento.
+![Exemplo de requisição para atualizar dados do usuário](./img/PUC%20S6-Exemplo%20de%20requisição.drawio.png)
 
 ## Hospedagem
 
