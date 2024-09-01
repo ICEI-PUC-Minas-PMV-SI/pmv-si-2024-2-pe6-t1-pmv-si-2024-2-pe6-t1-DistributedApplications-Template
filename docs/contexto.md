@@ -117,7 +117,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 |RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
 |RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos |  BAIXA |
-|RNF-005| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário |  ALTA |
 
 ## Restrições
 
