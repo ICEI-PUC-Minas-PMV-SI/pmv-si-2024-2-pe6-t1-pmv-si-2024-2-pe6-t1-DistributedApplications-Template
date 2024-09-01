@@ -129,7 +129,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Catálogo de Serviços
 
-- Gestão de Alunos: Permite o registro e a edição das informações pessoais, de contato e de saúde dos alunos.
+- **Gestão de Alunos**
+	- Registro de Alunos:
+		- Permite o cadastro detalhado de novos alunos, incluindo informações (nome, idade, endereço), detalhes de contato (telefone, e-mail) 
+	- Edição de Informações:
+		- Facilita a atualização contínua dos dados dos alunos, garantindo que as informações estejam sempre precisas e atualizadas
+	- Histórico de Atividades:
+		- Armazena o histórico de frequência dos alunos e registros de presença em aulas
 - Gestão de Pagamentos: Automatiza o acompanhamento de pagamentos, permitindo a visualização do status de quitação das mensalidades e a geração de relatórios de inadimplência.
 - Integração com Dispositivos Móveis: Oferece acesso às funcionalidades principais através de um aplicativo móvel, permitindo que os gestores utilizem a plataforma de qualquer lugar.
 - Proteção de Privacidade de Dados: O sistema está em conformidade com a Lei Geral de Proteção de Dados, incluindo controle de acesso e privacidade por padrão (Privacy by Default).
