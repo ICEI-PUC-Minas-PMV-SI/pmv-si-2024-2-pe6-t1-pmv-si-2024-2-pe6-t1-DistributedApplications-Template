@@ -18,5 +18,15 @@ function changeMode() {
     <v-icon v-if="theme === 'dark'" icon="mdi-weather-sunny" size="large"/>
     <v-icon v-if="theme === 'light'" icon="mdi-weather-night" size="large"/>
   </v-btn>
-  <h3>Home | About | Login</h3>
+  <div class="d-flex ga-3">
+    <router-link to="/" class="text-black rounded-lg px-3 py-1 custom-btn">Home</router-link>
+    <router-link to="/about" class="text-black rounded-lg px-3 py-1 custom-btn">About</router-link>
+    <router-link to="/login" class="text-white bg-orange-darken-1 rounded-lg px-3 py-1">Login</router-link>
+  </div>
 </template>
+
+<style scoped>
+.custom-btn:hover {
+  background-color: #cfcfcf;
+}
+</style>

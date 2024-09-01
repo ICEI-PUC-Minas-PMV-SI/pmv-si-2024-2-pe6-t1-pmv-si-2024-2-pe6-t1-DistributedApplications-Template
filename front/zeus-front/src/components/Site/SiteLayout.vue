@@ -9,14 +9,16 @@ import Footer from '@/components/Site/Footer.vue';
     <template v-slot:prepend>
       <NavbarLeft />
     </template>
-    <NavbarRight />
+    <template v-slot:append>
+      <NavbarRight />
+    </template>
   </v-app-bar>
 
   <v-main class="bg-light-blue-darken-4">
     <router-view />
   </v-main>
 
-  <v-footer>
+  <v-footer app>
     <Footer />
   </v-footer>
 </template>
