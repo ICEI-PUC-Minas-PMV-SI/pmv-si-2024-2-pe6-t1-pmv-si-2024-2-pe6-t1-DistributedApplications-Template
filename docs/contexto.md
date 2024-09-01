@@ -136,9 +136,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 		- Facilita a atualização contínua dos dados dos alunos, garantindo que as informações estejam sempre precisas e atualizadas
 	- Histórico de Atividades:
 		- Armazena o histórico de frequência dos alunos e registros de presença em aulas
-- Gestão de Pagamentos: Automatiza o acompanhamento de pagamentos, permitindo a visualização do status de quitação das mensalidades e a geração de relatórios de inadimplência.
-- Integração com Dispositivos Móveis: Oferece acesso às funcionalidades principais através de um aplicativo móvel, permitindo que os gestores utilizem a plataforma de qualquer lugar.
-- Proteção de Privacidade de Dados: O sistema está em conformidade com a Lei Geral de Proteção de Dados, incluindo controle de acesso e privacidade por padrão (Privacy by Default).
+- **Gestão de Pagamentos**
+	- Monitoramento de Status Financeiro:
+		- Permite a visualização em tempo real do status de pagamento de cada aluno
+	- Relatórios de Inadimplência:
+		- Gera relatórios sobre inadimplências, ajudando a identificar padrões e tomar medidas corretivas. Esses relatórios podem ser filtrados por período, aluno, ou tipo de plano.
+- **Integração com Dispositivos Móveis**
+	- Aplicativo Mobile:
+		- Disponibiliza um aplicativo móvel que replica as principais funcionalidades da plataforma web, permitindo que gestores acessem informações críticas, como cadastros de alunos e status de pagamentos, de qualquer lugar.
+	- Acesso Remoto:
+		Permite a gestão remota de operações da academia, como a consulta de dados financeiros e atualização de informações dos alunos 
+	- Sincronização em Tempo Real:
+		- Garante que qualquer alteração feita via aplicativo móvel seja imediatamente refletida na plataforma web, mantendo a consistência dos dados e facilitando a coordenação entre diferentes dispositivos.
+- **Proteção de Privacidade de Dados**
+	- Conformidade com LGPD:
+		- O sistema está totalmente em conformidade com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados dos alunos sejam coletados, armazenados e processados de acordo com os regulamentos legais.
+	- Privacidade por Padrão (Privacy by Default):
+		- As configurações de privacidade são definidas automaticamente para o nível mais restritivo, protegendo os dados do aluno desde o momento do cadastro sem necessidade de configurações manuais adicionais.
+	- Auditoria e Logs:
+		- Mantém um registro detalhado de todas as operações realizadas no sistema, permitindo auditorias regulares e identificação de atividades suspeitas ou anômalas.
 
 # Arquitetura da Solução
 ![image](https://github.com/user-attachments/assets/6e22a7c1-bdff-45af-8a1b-c12d6d40c0bf)
