@@ -117,8 +117,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 |RNF-003| O sistema deve ser escalável para suportar o crescimento da academia, incluindo mais alunos e novos serviços |  ALTA |
 |RNF-004| O sistema deve garantir a segurança e confidencialidade dos dados dos alunos, incluindo criptografia de dados sensíveis |  BAIXA |
-|RNF-005| O sistema deve suportar integrações com APIs externas para ampliação de funcionalidades no futuro |  ALTA |
-|RNF-006| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário.|  ALTA |
+|RNF-005| O sistema deve ser projetado para tratar possíveis falhas, minimizando o impacto na experiência do usuário |  ALTA |
 
 ## Restrições
 
@@ -127,7 +126,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| A solução deve ser desenvolvida utilizando as tecnologias especificadas (C#, .NET, React, MySQL) |
+|02| A aplicação deverá possuir acesso via WEB e Mobile |
 
 # Catálogo de Serviços
 
