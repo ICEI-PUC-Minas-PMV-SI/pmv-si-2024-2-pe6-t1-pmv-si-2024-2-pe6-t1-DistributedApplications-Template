@@ -1,8 +1,19 @@
 <script setup lang="ts">
-import { useThemeStore } from '@/stores/theme';
-import { storeToRefs } from "pinia";
+import { computed } from 'vue'
+import { useRouter } from 'vue-router'
+import { useThemeStore } from '@/stores/theme'
+import { useUserStore } from '@/stores/user'
+import { storeToRefs } from "pinia"
 
+const router = useRouter();
 const { theme } = storeToRefs(useThemeStore());
+
+const appLoginColor = computed(() => {
+  return theme.value === 'light' ? 'bg-orange-darken-1' : 'bg-orange-darken-2'
+})
+const hoverBtnColor = computed(() => {
+  return theme.value === 'light' ? 'custom-hover-btn-light' : 'custom-hover-btn-dark'
+})
 
 function changeMode() {
   if(theme.value === 'light') {
@@ -10,6 +21,11 @@ function changeMode() {
   } else {
     useThemeStore().setTheme('light')
   }
+}
+
+function logout() {
+  useUserStore().setIsAutenticated(false)
+  router.push('/');
 }
 </script>
 
@@ -19,14 +35,6 @@ function changeMode() {
     <v-icon v-if="theme === 'light'" icon="mdi-weather-night" size="large"/>
   </v-btn>
   <div class="d-flex ga-3">
-    <router-link to="/" class="text-black rounded-lg px-3 py-1 custom-btn">Home</router-link>
-    <router-link to="/about" class="text-black rounded-lg px-3 py-1 custom-btn">About</router-link>
-    <router-link to="/login" class="text-white bg-orange-darken-1 rounded-lg px-3 py-1">Login</router-link>
+    <v-btn @click="logout" :style="{ textTransform: 'none' }" :class="appLoginColor,hoverBtnColor">Logout</v-btn>
   </div>
 </template>
-
-<style scoped>
-.custom-btn:hover {
-  background-color: #cfcfcf;
-}
-</style>

@@ -27,13 +27,13 @@ function changeMode() {
       <v-icon v-if="theme === 'dark'" icon="mdi-weather-sunny" size="large"/>
       <v-icon v-if="theme === 'light'" icon="mdi-weather-night" size="large"/>
     </v-btn>
-    <v-btn to="/" :style="{ textTransform: 'none' }" class="custom-hover-btn" :class="hoverBtnColor">
+    <v-btn to="/" :style="{ textTransform: 'none' }" :class="hoverBtnColor">
       Home
     </v-btn>
-    <v-btn to="/about" :style="{ textTransform: 'none' }" class="custom-hover-btn" :class="hoverBtnColor">
+    <v-btn to="/about" :style="{ textTransform: 'none' }":class="hoverBtnColor">
       About
     </v-btn>
-    <v-btn to="/login" :class="appLoginColor,hoverBtnColor" :style="{ textTransform: 'none' }" class="custom-hover-btn">
+    <v-btn to="/login" :style="{ textTransform: 'none' }" :class="appLoginColor,hoverBtnColor">
       Login
     </v-btn>
   </div>
