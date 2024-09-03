@@ -1,5 +1,14 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import { computed } from 'vue'
+import { useThemeStore } from '@/stores/theme'
+
+const appLoginColor = computed(() => {
+  return useThemeStore().theme === 'light' ? 'bg-orange-darken-1' : 'bg-orange-darken-2'
+})
+const hoverBtnColor = computed(() => {
+  return useThemeStore().theme === 'light' ? 'custom-hover-btn-light' : 'custom-hover-btn-dark'
+})
 
 const services = ref([
   { text: 'Gestão de moradores', icon: 'mdi-check' },
@@ -48,7 +57,9 @@ const services = ref([
           <div>
             <h2 class="mb-5">E isso tudo em um só lugar, começe agora!</h2>
             <div class="d-flex justify-center">
-              <v-btn color="orange-darken-1 flex-grow-1">Criar conta</v-btn>
+              <v-btn :class="appLoginColor,hoverBtnColor" color="flex-grow-1">
+                Criar conta
+              </v-btn>
             </div>
           </div>
         </v-card>

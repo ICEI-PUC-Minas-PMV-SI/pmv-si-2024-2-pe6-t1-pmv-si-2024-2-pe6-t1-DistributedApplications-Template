@@ -33,5 +33,12 @@ body {
     padding: 0 0;
   }
 }
+
+.custom-hover-btn-light:hover {
+  background-color: #CFD8DC;
+}
+.custom-hover-btn-dark:hover {
+  background-color: #37474F;
+}
 </style>
 

@@ -1,8 +1,16 @@
 <script setup lang="ts">
-import { useThemeStore } from '@/stores/theme';
-import { storeToRefs } from "pinia";
+import { computed } from 'vue'
+import { useThemeStore } from '@/stores/theme'
+import { storeToRefs } from "pinia"
 
 const { theme } = storeToRefs(useThemeStore());
+
+const appLoginColor = computed(() => {
+  return theme.value === 'light' ? 'bg-orange-darken-1' : 'bg-orange-darken-2'
+})
+const hoverBtnColor = computed(() => {
+  return theme.value === 'light' ? 'custom-hover-btn-light' : 'custom-hover-btn-dark'
+})
 
 function changeMode() {
   if(theme.value === 'light') {
@@ -14,19 +22,19 @@ function changeMode() {
 </script>
 
 <template>
-  <v-btn @click="changeMode">
-    <v-icon v-if="theme === 'dark'" icon="mdi-weather-sunny" size="large"/>
-    <v-icon v-if="theme === 'light'" icon="mdi-weather-night" size="large"/>
-  </v-btn>
   <div class="d-flex ga-3">
-    <router-link to="/" class="text-black rounded-lg px-3 py-1 custom-btn">Home</router-link>
-    <router-link to="/about" class="text-black rounded-lg px-3 py-1 custom-btn">About</router-link>
-    <router-link to="/login" class="text-white bg-orange-darken-1 rounded-lg px-3 py-1">Login</router-link>
+    <v-btn @click="changeMode" variant="text" :class="hoverBtnColor">
+      <v-icon v-if="theme === 'dark'" icon="mdi-weather-sunny" size="large"/>
+      <v-icon v-if="theme === 'light'" icon="mdi-weather-night" size="large"/>
+    </v-btn>
+    <v-btn to="/" :style="{ textTransform: 'none' }" class="custom-hover-btn" :class="hoverBtnColor">
+      Home
+    </v-btn>
+    <v-btn to="/about" :style="{ textTransform: 'none' }" class="custom-hover-btn" :class="hoverBtnColor">
+      About
+    </v-btn>
+    <v-btn to="/login" :class="appLoginColor,hoverBtnColor" :style="{ textTransform: 'none' }" class="custom-hover-btn">
+      Login
+    </v-btn>
   </div>
 </template>
-
-<style scoped>
-.custom-btn:hover {
-  background-color: #cfcfcf;
-}
-</style>
