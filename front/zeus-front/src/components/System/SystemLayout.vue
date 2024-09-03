@@ -32,8 +32,13 @@ const appBarColor = computed(() => {
         density="compact"
         nav
       >
-        <v-list-item prepend-icon="mdi-view-dashboard" title="Home" value="home"></v-list-item>
-        <v-list-item prepend-icon="mdi-forum" title="About" value="about"></v-list-item>
+        <v-list-item prepend-icon="mdi-newspaper" title="Feed de Notícias" value="feed-de-noticias"></v-list-item>
+        <v-list-item prepend-icon="mdi-home-group" title="Moradores" value="moradores"></v-list-item>
+        <v-list-item prepend-icon="mdi-file-document-multiple" title="Documentos" value="documentos"></v-list-item>
+        <v-list-item prepend-icon="mdi-camera-front-variant" title="Visitantes" value="visitantes"></v-list-item>
+        <v-list-item prepend-icon="mdi-home-clock-outline" title="Visitas" value="visitas"></v-list-item>
+        <v-list-item prepend-icon="mdi-account-hard-hat" title="Funcionários" value="funcionarios"></v-list-item>
+        <v-list-item prepend-icon="mdi-office-building" title="Apartamentos" value="apartamentos"></v-list-item>
       </v-list>
     </v-navigation-drawer>
 

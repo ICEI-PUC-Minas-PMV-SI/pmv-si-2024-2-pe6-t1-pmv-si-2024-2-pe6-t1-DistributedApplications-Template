@@ -34,7 +34,7 @@ function logout() {
     <v-icon v-if="theme === 'dark'" icon="mdi-weather-sunny" size="large"/>
     <v-icon v-if="theme === 'light'" icon="mdi-weather-night" size="large"/>
   </v-btn>
-  <div class="d-flex ga-3">
+  <div class="d-flex ga-3 mr-4">
     <v-btn @click="logout" :style="{ textTransform: 'none' }" :class="appLoginColor,hoverBtnColor">Logout</v-btn>
   </div>
 </template>

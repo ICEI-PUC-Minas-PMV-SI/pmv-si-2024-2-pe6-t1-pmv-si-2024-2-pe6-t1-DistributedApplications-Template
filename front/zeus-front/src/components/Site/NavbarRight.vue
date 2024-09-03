@@ -22,7 +22,7 @@ function changeMode() {
 </script>
 
 <template>
-  <div class="d-flex ga-3">
+  <div class="d-flex ga-3 mr-4">
     <v-btn @click="changeMode" variant="text" :class="hoverBtnColor">
       <v-icon v-if="theme === 'dark'" icon="mdi-weather-sunny" size="large"/>
       <v-icon v-if="theme === 'light'" icon="mdi-weather-night" size="large"/>
