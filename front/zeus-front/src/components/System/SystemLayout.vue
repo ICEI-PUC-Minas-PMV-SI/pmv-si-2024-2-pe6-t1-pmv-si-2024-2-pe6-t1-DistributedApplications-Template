@@ -2,9 +2,8 @@
 import { computed } from 'vue'
 import { useThemeStore } from '@/stores/theme'
 
-import NavbarLeft from '@/components/Site/NavbarLeft.vue'
 import NavbarRight from '@/components/System/NavbarRight.vue'
-import Footer from '@/components/Site/Footer.vue'
+import MainHeader from '@/components/System/MainHeader.vue'
 
 const appBarColor = computed(() => {
   return useThemeStore().theme === 'light' ? 'light-blue-darken-4' : 'blue-grey-darken-3';
@@ -38,8 +37,9 @@ const appBarColor = computed(() => {
       </v-list>
     </v-navigation-drawer>
 
-    <v-main class="d-flex align-center justify-center" style="min-height: 300px;">
-      Main Content
+    <v-main class="ml-5 mt-2" style="min-height: 300px;">
+      <MainHeader />
+      <router-view />
     </v-main>
   </v-layout>
 </template>

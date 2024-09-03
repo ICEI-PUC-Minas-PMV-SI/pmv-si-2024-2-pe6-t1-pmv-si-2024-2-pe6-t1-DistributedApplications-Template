@@ -9,7 +9,7 @@ const visible = ref(false)
 
 function login() {
   useUserStore().setIsAutenticated(true)
-  router.push('/dashboard');
+  router.push('/feed-de-noticias');
 }
 </script>
 

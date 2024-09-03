@@ -19,9 +19,9 @@ const router = createRouter({
       component: () => import('@/views/Site/Login.vue')
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: () => import('@/views/System/Dashboard.vue')
+      path: '/feed-de-noticias',
+      name: 'Feed de Notícias',
+      component: () => import('@/views/System/NewsFeed.vue')
     }
   ]
 })
