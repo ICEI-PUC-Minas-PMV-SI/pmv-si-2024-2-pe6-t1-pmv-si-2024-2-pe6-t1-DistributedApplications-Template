@@ -42,6 +42,7 @@ const appBarColor = computed(() => {
       </v-list>
     </v-navigation-drawer>
 
+
     <v-main class="ml-5 mt-2" style="min-height: 300px;">
       <MainHeader />
       <router-view />
