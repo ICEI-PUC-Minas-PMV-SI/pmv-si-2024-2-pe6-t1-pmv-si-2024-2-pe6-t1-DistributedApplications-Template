@@ -1,14 +1,17 @@
-import { Module } from '@nestjs/common'
+import { Module, ValidationPipe, MiddlewareConsumer } from '@nestjs/common'
+import { APP_PIPE } from '@nestjs/core'
 import { AppController } from './app.controller'
-import { UsersController } from './users/users.controller';
 import { AppService } from './app.service'
-import { UsersService } from './users/users.service'
-import { AuthService } from './users/auth.service'
 import { TypeOrmModule } from '@nestjs/typeorm'
+import { ConfigModule, ConfigService } from '@nestjs/config'
 import { UsersModule } from './users/users.module'
+const cookieSession = require('cookie-session')
 
 @Module({
   imports: [
+    ConfigModule.forRoot({
+      isGlobal: true
+    }),
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
@@ -21,14 +24,27 @@ import { UsersModule } from './users/users.module'
     }),
     UsersModule,
   ],
-  controllers: [
-    AppController,
-    UsersController
-  ],
+  controllers: [AppController],
   providers: [
     AppService,
-    UsersService,
-    AuthService
+    {
+      provide: APP_PIPE,
+      useValue: new ValidationPipe({
+        whitelist: true,
+      }),
+    },
   ],
 })
-export class AppModule {}
+export class AppModule {
+  constructor(private configService: ConfigService) {}
+
+  configure(consumer: MiddlewareConsumer) {
+    consumer
+      .apply(
+        cookieSession({
+          keys: [this.configService.get('COOKIE_KEY')],
+        }),
+      )
+      .forRoutes('*')
+  }
+}
