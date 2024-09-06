@@ -11,5 +11,13 @@ export class UpdateUserDto {
 
   @IsString()
   @IsOptional()
+  cellphone: string;
+
+  @IsString()
+  @IsOptional()
+  cpf: string;
+
+  @IsString()
+  @IsOptional()
   password: string;
 }
