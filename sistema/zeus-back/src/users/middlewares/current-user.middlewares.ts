@@ -18,13 +18,12 @@ export class CurrentUserMiddlewar implements NestMiddleware {
   ) {}
 
   async use(req: Request, res: Response, next: NextFunction) {
-    console.log("teste", req.session)
-    // const { userId } = req.session || {};
+    const { userId } = req.session || {};
 
-    // if(userId) {
-    //   const user = await this.usersService.findOne(userId);
-    //   req.currentUser = user;
-    // }
+    if(userId) {
+      const user = await this.usersService.findOne(userId);
+      req.currentUser = user;
+    }
 
     next();
   }
