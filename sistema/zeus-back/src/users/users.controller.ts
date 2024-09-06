@@ -19,7 +19,7 @@ export class UsersController {
 
   @Get('/whoami')
   @UseGuards(AuthGuard)
-  whoAmI(@CurrentUser() user: User) {
+  whoAmI(@CurrentUser() user: User, @Session() session: any) {
     return user;
   }
 
