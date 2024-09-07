@@ -6,8 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm'
 import { ConfigModule, ConfigService } from '@nestjs/config'
 import { UsersModule } from './users/users.module'
 import { ApartmentsModule } from './apartments/apartments.module';
-import { Moradore } from './moradores/entities/Moradore.entity'
-import { MoradoresModule } from './moradores/moradores.module'
+import { MoradoresModule } from './moradores/moradores.module';
 const cookieSession = require('cookie-session')
 
 @Module({
