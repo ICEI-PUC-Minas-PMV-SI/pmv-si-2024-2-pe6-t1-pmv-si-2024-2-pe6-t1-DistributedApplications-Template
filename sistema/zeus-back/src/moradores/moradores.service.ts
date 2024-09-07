@@ -10,6 +10,8 @@ export class MoradoresService {
   constructor(@InjectRepository(Moradore) private repo: Repository<Moradore>) {}
 
   create(nome: string, apartamento: string, telefone: string, cpf: string, status: string, email?: string, bloco?: string) {
+    console.log(nome, apartamento, bloco, telefone, email, cpf, status);
+
     const moradore = this.repo.create({ nome, apartamento, bloco, telefone, email, cpf, status });
 
     return this.repo.save(moradore);
@@ -26,12 +28,13 @@ export class MoradoresService {
     return this.repo.findOne({ where: { id } });
   }
 
-  update(id: number, body: UpdateMoradoreDto) {
-    const moradore = this.findOne(id);
-    if(!moradore) {
+  async update(id: number, body: UpdateMoradoreDto) {
+    const moradores = await this.findOne(id);
+    if(!moradores) {
       throw new NotFoundException('moradore not found');
     }
-    Object.assign(moradore, body);
+    Object.assign(moradores, body);
+    return this.repo.save(moradores);
   }
 
   async remove(id: number) {

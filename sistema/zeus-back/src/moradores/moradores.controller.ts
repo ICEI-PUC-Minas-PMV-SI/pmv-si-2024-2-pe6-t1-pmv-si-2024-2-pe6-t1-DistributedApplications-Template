@@ -8,9 +8,10 @@ export class MoradoresController {
   constructor(
     private readonly moradoresService: MoradoresService) {}
 
-  @Post('/')
+  @Post()
   async create(@Body() body: CreateMoradoreDto) {
-    const moradore = await this.moradoresService.create(body.nome, body.apartamento, body.bloco, body.telefone, body.email, body.cpf, body.status);
+    console.log(body);
+    const moradore = await this.moradoresService.create(body.nome, body.apartamento, body.telefone, body.cpf, body.status, body.email, body.bloco);
 
     return moradore;
   }
@@ -25,12 +26,14 @@ export class MoradoresController {
     return this.moradoresService.findOne(+id);
   }
 
-  @Patch('/alterarMorador=:id')
+  @Patch(':id')
   update(@Param('id') id: string, @Body() body: UpdateMoradoreDto) {
+    console.log(body);
+
     return this.moradoresService.update(+id, body);
   }
 
-  @Delete('/deletarMorador=:id')
+  @Delete(':id')
   remove(@Param('id') id: string) {
     return this.moradoresService.remove(+id);
   }
