@@ -6,6 +6,8 @@ import { TypeOrmModule } from '@nestjs/typeorm'
 import { ConfigModule, ConfigService } from '@nestjs/config'
 import { UsersModule } from './users/users.module'
 import { ApartmentsModule } from './apartments/apartments.module';
+import { Moradore } from './moradores/entities/Moradore.entity'
+import { MoradoresModule } from './moradores/moradores.module'
 const cookieSession = require('cookie-session')
 
 @Module({
@@ -18,12 +20,13 @@ const cookieSession = require('cookie-session')
       host: '127.0.0.1',
       port: 3306,
       username: 'root',
-      password: null,
+      password: '1234',
       database: 'zeus',
       autoLoadEntities: true,
       synchronize: true,
     }),
     UsersModule,
+    MoradoresModule,
     ApartmentsModule,
   ],
   controllers: [AppController],
