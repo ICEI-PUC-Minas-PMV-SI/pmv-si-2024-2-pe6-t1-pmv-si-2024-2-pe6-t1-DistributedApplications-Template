@@ -5,6 +5,7 @@ import { AppService } from './app.service'
 import { TypeOrmModule } from '@nestjs/typeorm'
 import { ConfigModule, ConfigService } from '@nestjs/config'
 import { UsersModule } from './users/users.module'
+import { ApartmentsModule } from './apartments/apartments.module';
 const cookieSession = require('cookie-session')
 
 @Module({
@@ -14,7 +15,7 @@ const cookieSession = require('cookie-session')
     }),
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '127.0.0.1',
       port: 3306,
       username: 'root',
       password: null,
@@ -23,6 +24,7 @@ const cookieSession = require('cookie-session')
       synchronize: true,
     }),
     UsersModule,
+    ApartmentsModule,
   ],
   controllers: [AppController],
   providers: [
