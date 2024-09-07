@@ -1,5 +1,6 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, JoinColumn, OneToOne } from 'typeorm';
 import { Exclude } from 'class-transformer';
+import { Apartment } from 'src/apartments/entities/apartment.entity';
 
 export enum UserRole {
   ADMIN = 'ADMIN',
@@ -35,4 +36,11 @@ export class User {
     default: UserRole.MORADOR,
   })
   role: UserRole;
+
+  @OneToOne(() => Apartment)
+  @JoinColumn({ name: 'apartmentId' })
+  apartment: Apartment;
+
+  @Column({ nullable: true })
+  apartmentId: number;
 }
