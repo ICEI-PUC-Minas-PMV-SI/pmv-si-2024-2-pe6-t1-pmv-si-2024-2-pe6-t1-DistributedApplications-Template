@@ -14,15 +14,19 @@ const cookieSession = require('cookie-session')
     ConfigModule.forRoot({
       isGlobal: true
     }),
-    TypeOrmModule.forRoot({
-      type: 'mysql',
-      host: '127.0.0.1',
-      port: 3306,
-      username: 'root',
-      password: '1234',
-      database: 'zeus',
-      autoLoadEntities: true,
-      synchronize: true,
+    TypeOrmModule.forRootAsync({
+      imports: [ConfigModule],
+      inject: [ConfigService],
+      useFactory: (configService: ConfigService) => ({
+        type: 'mysql',
+        host: configService.get('DB_HOST'),
+        port: parseInt(configService.get('DB_PORT'), 10),
+        username: configService.get('DB_USERNAME'),
+        password: configService.get('DB_PASSWORD'),
+        database: configService.get('DB_DATABASE'),
+        autoLoadEntities: true,
+        synchronize: true,
+      }),
     }),
     UsersModule,
     MoradoresModule,
