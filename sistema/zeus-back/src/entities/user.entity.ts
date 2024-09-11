@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, JoinColumn, OneToOne } from 'typeorm';
 import { Exclude } from 'class-transformer';
-import { Apartment } from 'src/apartments/entities/apartment.entity';
+import { Apartment } from './apartment.entity';
 
 export enum UserRole {
   ADMIN = 'ADMIN',
@@ -8,6 +8,8 @@ export enum UserRole {
   MORADOR = 'MORADOR',
   PORTEIRO = 'PORTEIRO',
 }
+
+export type UserRelations = 'apartment' | 'visitor';
 
 @Entity()
 export class User {

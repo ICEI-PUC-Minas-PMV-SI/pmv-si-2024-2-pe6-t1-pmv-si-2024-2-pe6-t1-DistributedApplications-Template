@@ -7,6 +7,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config'
 import { UsersModule } from './users/users.module'
 import { ApartmentsModule } from './apartments/apartments.module';
 import { MoradoresModule } from './moradores/moradores.module';
+import { AuthModule } from './auth/auth.module';
 const cookieSession = require('cookie-session')
 
 @Module({
@@ -29,6 +30,7 @@ const cookieSession = require('cookie-session')
       }),
     }),
     UsersModule,
+    AuthModule,
     MoradoresModule,
     ApartmentsModule,
   ],

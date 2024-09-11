@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
-import { User } from './entities/user.entity';
+import { User, type UserRelations } from '../entities/user.entity';
 
 @Injectable()
 export class UsersService {
@@ -13,14 +13,22 @@ export class UsersService {
     return this.repo.save(user);
   }
 
-  findOne(id: number) {
-    if(!id) {
+  findOne(id: number, relations?: UserRelations[]) {
+    if (!id) {
       return null;
     }
-    return this.repo.findOneBy({ id });
+
+    if(relations && relations.length > 0) {
+      return this.repo.findOne({
+        where: { id },
+        relations
+      });
+    }
+    
+    return this.repo.findOneBy({ id })
   }
 
-  find(email: string) {
+  findByEmail(email: string) {
     return this.repo.find({ where: { email } });
   }
 
