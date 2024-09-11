@@ -14,6 +14,7 @@ export class AuthController {
   @Get('/whoami')
   @UseGuards(JwtSessionGuard)
   whoAmI(@CurrentUser() user: User) {
+    delete user.password;
     return user;
   }
 
