@@ -12,7 +12,7 @@ export class Visitor {
   cellphone: string;
 
   @Column()
-  cpf: string;
+  cpf: number;
 
   @CreateDateColumn({ type: 'timestamp' })
   createdAt: Date;
