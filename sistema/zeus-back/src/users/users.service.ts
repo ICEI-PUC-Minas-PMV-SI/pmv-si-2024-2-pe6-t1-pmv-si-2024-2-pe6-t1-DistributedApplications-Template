@@ -13,19 +13,23 @@ export class UsersService {
     return this.repo.save(user);
   }
 
-  findOne(id: number, relations?: UserRelations[]) {
-    if (!id) {
-      return null;
-    }
+  async findOne(id: number, relations?: UserRelations[]) {
+    let user: User;
 
     if(relations && relations.length > 0) {
-      return this.repo.findOne({
+      user = await this.repo.findOne({
         where: { id },
         relations
       });
     }
-    
-    return this.repo.findOneBy({ id })
+
+    user = await this.repo.findOneBy({ id })
+
+    if (!user) {
+      throw new NotFoundException('Usuário not found');
+    }
+
+    return user
   }
 
   findByEmail(email: string) {

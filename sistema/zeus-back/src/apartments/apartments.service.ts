@@ -16,11 +16,14 @@ export class ApartmentsService {
     return this.repo.save(apartment);
   }
 
-  findOne(id: number) {
-    if(!id) {
-      return null;
+  async findOne(id: number) {
+    const apartment = await this.repo.findOneBy({ id });
+
+    if(!apartment) {
+      throw new NotFoundException('Morador not found');
     }
-    return this.repo.findOneBy({ id });
+
+    return apartment;
   }
 
   find(number: number) {

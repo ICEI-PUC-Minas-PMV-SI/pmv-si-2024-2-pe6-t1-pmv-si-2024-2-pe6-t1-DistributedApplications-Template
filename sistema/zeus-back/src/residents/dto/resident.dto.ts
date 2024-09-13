@@ -1,6 +1,8 @@
 import { Expose } from "class-transformer";
+import { Apartment } from 'src/entities/apartment.entity';
 
-export class UserDto {
+export class ResidentDto {
+
   @Expose()
   id: number;
 
@@ -18,4 +20,10 @@ export class UserDto {
 
   @Expose()
   role: string;
+
+  @Expose()
+  apartmentId: string;
+
+  @Expose()
+  apartment: Apartment
 }
