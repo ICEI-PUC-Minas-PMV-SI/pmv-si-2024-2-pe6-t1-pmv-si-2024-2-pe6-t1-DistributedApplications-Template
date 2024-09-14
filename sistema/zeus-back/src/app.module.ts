@@ -1,20 +1,21 @@
-import { Module, ValidationPipe, MiddlewareConsumer } from '@nestjs/common'
-import { APP_PIPE } from '@nestjs/core'
-import { AppController } from './app.controller'
-import { AppService } from './app.service'
-import { TypeOrmModule } from '@nestjs/typeorm'
-import { ConfigModule, ConfigService } from '@nestjs/config'
-import { UsersModule } from './users/users.module'
+import { Module, ValidationPipe, MiddlewareConsumer } from '@nestjs/common';
+import { APP_PIPE } from '@nestjs/core';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import { UsersModule } from './users/users.module';
 import { ApartmentsModule } from './apartments/apartments.module';
 import { ResidentsModule } from './residents/residents.module';
 import { AuthModule } from './auth/auth.module';
 import { VisitorsModule } from './visitors/visitors.module';
-const cookieSession = require('cookie-session')
+import { EmployeesModule } from './employees/employees.module';
+const cookieSession = require('cookie-session');
 
 @Module({
   imports: [
     ConfigModule.forRoot({
-      isGlobal: true
+      isGlobal: true,
     }),
     TypeOrmModule.forRootAsync({
       imports: [ConfigModule],
@@ -35,6 +36,7 @@ const cookieSession = require('cookie-session')
     ResidentsModule,
     ApartmentsModule,
     VisitorsModule,
+    EmployeesModule,
   ],
   controllers: [AppController],
   providers: [
@@ -57,6 +59,6 @@ export class AppModule {
           keys: [this.configService.get('COOKIE_KEY')],
         }),
       )
-      .forRoutes('*')
+      .forRoutes('*');
   }
 }
