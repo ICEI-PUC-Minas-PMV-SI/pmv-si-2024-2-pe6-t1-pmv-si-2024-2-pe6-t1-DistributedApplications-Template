@@ -16,24 +16,31 @@ export class ApartmentsService {
     return this.repo.save(apartment);
   }
 
-  async findOne(id: number) {
-    const apartment = await this.repo.findOneBy({ id });
+  findAll() {
+    return this.repo.find();
+  }
 
-    if(!apartment) {
-      throw new NotFoundException('Morador not found');
+  async findOne(id: number) {
+    const apartment = await this.repo.findOne({
+      where: { id },
+      // relations: ['visitors']
+    });
+
+    if (!apartment) {
+      throw new NotFoundException('Apartamento não encontrado.');
     }
 
     return apartment;
   }
 
-  find(number: number) {
+  findByNumber(number: number) {
     return this.repo.find({ where: { number } });
   }
 
   async update(id: number, attrs: Partial<Apartment>) {
     const apartment = await this.findOne(id);
     if(!apartment) {
-      throw new NotFoundException('apartment not found');
+      throw new NotFoundException('Apartamento não encontrado.');
     }
     Object.assign(apartment, attrs);
     return this.repo.save(apartment);
@@ -42,7 +49,7 @@ export class ApartmentsService {
   async remove(id: number) {
     const apartment = await this.findOne(id);
     if(!apartment) {
-      throw new NotFoundException('apartment not found');
+      throw new NotFoundException('Apartamento não encontrado.');
     }
     return this.repo.remove(apartment);
   }

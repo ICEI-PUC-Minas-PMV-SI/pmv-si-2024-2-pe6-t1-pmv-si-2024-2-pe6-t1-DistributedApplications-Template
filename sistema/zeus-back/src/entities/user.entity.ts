@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn, JoinColumn, OneToOne } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { Exclude } from 'class-transformer';
 import { Apartment } from './apartment.entity';
 
@@ -39,10 +39,6 @@ export class User {
   })
   role: UserRole;
 
-  @OneToOne(() => Apartment)
-  @JoinColumn({ name: 'apartmentId' })
+  @ManyToOne(() => Apartment, (apartment) => apartment.residents, { nullable: true })
   apartment: Apartment;
-
-  @Column({ nullable: true })
-  apartmentId: number;
 }

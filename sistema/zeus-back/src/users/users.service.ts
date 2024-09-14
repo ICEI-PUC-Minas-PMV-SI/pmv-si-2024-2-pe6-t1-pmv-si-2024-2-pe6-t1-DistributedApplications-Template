@@ -2,6 +2,10 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { User, type UserRelations } from '../entities/user.entity';
+import { randomBytes, scrypt as _scrypt } from "crypto"
+import { promisify } from "util"
+
+const scrypt = promisify(_scrypt)
 
 @Injectable()
 export class UsersService {
@@ -38,9 +42,17 @@ export class UsersService {
 
   async update(id: number, attrs: Partial<User>) {
     const user = await this.findOne(id);
+
     if(!user) {
       throw new NotFoundException('user not found');
     }
+
+    if(attrs.password) {
+      const salt = randomBytes(8).toString('hex')
+      const hash = (await scrypt(attrs.password, salt, 32)) as Buffer
+      attrs.password = salt + '.' + hash.toString('hex')
+    }
+
     Object.assign(user, attrs);
     return this.repo.save(user);
   }
