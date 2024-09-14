@@ -13,7 +13,7 @@ import { JwtSessionGuard } from '../auth/guards/jwt-auth.guard';
 import { EmployeeDto } from './dto/employee.dto';
 import { Serialize } from '../interceptors/serialize.interceptor';
 
-@Controller('employee')
+@Controller('employees')
 @Serialize(EmployeeDto)
 export class EmployeesController {
   constructor(private readonly residentsService: EmployeesService) {}
